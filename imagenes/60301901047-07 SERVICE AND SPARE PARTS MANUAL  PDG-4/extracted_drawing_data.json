@@ -1,0 +1,652 @@
+{
+    "sections": [
+        {
+            "drawing_page_num": 6,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/60301901047-07 SERVICE AND SPARE PARTS MANUAL  PDG-4/extracted_drawing_p6.png",
+            "pos_locations": {
+                "10": [
+                    [
+                        59.52,
+                        339.63,
+                        68.2,
+                        347.43
+                    ]
+                ],
+                "8": [
+                    [
+                        452.88,
+                        324.63,
+                        457.24,
+                        332.43
+                    ]
+                ],
+                "1": [
+                    [
+                        452.88,
+                        253.83,
+                        457.24,
+                        261.63
+                    ]
+                ],
+                "9": [
+                    [
+                        452.88,
+                        136.11,
+                        457.24,
+                        143.91
+                    ]
+                ],
+                "4": [
+                    [
+                        543.36,
+                        521.55,
+                        547.72,
+                        529.35
+                    ]
+                ],
+                "3": [
+                    [
+                        542.52,
+                        562.59,
+                        546.88,
+                        570.39
+                    ]
+                ],
+                "2": [
+                    [
+                        182.16,
+                        601.23,
+                        186.52,
+                        609.03
+                    ]
+                ],
+                "5": [
+                    [
+                        355.8,
+                        438.63,
+                        360.16,
+                        446.43
+                    ]
+                ],
+                "7": [
+                    [
+                        452.88,
+                        203.31,
+                        457.24,
+                        211.11
+                    ]
+                ],
+                "6": [
+                    [
+                        294.16,
+                        830.16,
+                        300.83,
+                        842.16
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "CHASIS COMP.PINT-ACOR.",
+                    "PART NAME": "CHASSIS ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MONTAJE TRANSMISION P.D.-3",
+                    "PART NAME": "TRANSMISSION ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MONTAJE GUIAS DE CADENA DE P.D.-2",
+                    "PART NAME": "GUIDES ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MONTAJE GUIAS BRIDA EJE TAZAS P.D.-2",
+                    "PART NAME": "SHAFT ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "GRUPO GUIAS DE TAZAS",
+                    "PART NAME": "GUIDE CUPS ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "GRUPO 4 SISTEMAS DE PESADO PD4",
+                    "PART NAME": "WEIGHT SYSTEM GROUP",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "CONJUNTO TRANSPORTADORES",
+                    "PART NAME": "CONVEYORS GROUP",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "ALIMENTADOR PD4",
+                    "PART NAME": "INFEED GROUP",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MONTAJE CORAZAS",
+                    "PART NAME": "COVERS ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MONTAJE ARMARIOS PDG-4C",
+                    "PART NAME": "CABINETS ASSEMBLY",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "GRUPO NEUMATICO P.D.-3",
+                    "PART NAME": "PNEUMATIC GROUP",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "",
+                    "DESCRIPCIÓN": "MATERIAL ELECTRICO EXTERIOR",
+                    "PART NAME": "EXTERIOR ELECTRICAL EQUIPMENT",
+                    "CTD. / QTY.": ""
+                },
+                {
+                    "POS.": "A",
+                    "Nº PIEZA / PART NUMBER": "E00-0654",
+                    "DESCRIPCIÓN": "ETIQUETA PELIGRO 25X25",
+                    "PART NAME": "WARNING ADHESIVE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "B",
+                    "Nº PIEZA / PART NUMBER": "328-170058",
+                    "DESCRIPCIÓN": "ETIQUETA ADHESIVA GIR(cid:207)",
+                    "PART NAME": "STICKER GIR(cid:207)",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "C.1",
+                    "Nº PIEZA / PART NUMBER": "0802001009186",
+                    "DESCRIPCIÓN": "LOGO PDG-4C VINILO",
+                    "PART NAME": "LOGO",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "C.2",
+                    "Nº PIEZA / PART NUMBER": "0802001009187",
+                    "DESCRIPCIÓN": "LOGO PDG-4L VINILO",
+                    "PART NAME": "LOGO",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "D",
+                    "Nº PIEZA / PART NUMBER": "0802001009191",
+                    "DESCRIPCIÓN": "LOGO GIRO\nPDG-4 TECHO VINILO",
+                    "PART NAME": "LOGO GIRO PDG-4 TOP COVER VYNIL",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "E",
+                    "Nº PIEZA / PART NUMBER": "E00-0795",
+                    "DESCRIPCIÓN": "ETIQUETA PELIGRO 60X60 GRANDE",
+                    "PART NAME": "WARNING ADHESIVE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "F",
+                    "Nº PIEZA / PART NUMBER": "328-170108",
+                    "DESCRIPCIÓN": "ADHESIVO PELIGRO PROTECCIONES",
+                    "PART NAME": "ADHESIVE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "G.1",
+                    "Nº PIEZA / PART NUMBER": "0699PD0000122",
+                    "DESCRIPCIÓN": "LOGO PANEL PDG-4C",
+                    "PART NAME": "LOGO",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "G.2",
+                    "Nº PIEZA / PART NUMBER": "0699PD0000123",
+                    "DESCRIPCIÓN": "LOGO PANEL PDG-4L",
+                    "PART NAME": "LOGO",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "H",
+                    "Nº PIEZA / PART NUMBER": "0699PD0000300",
+                    "DESCRIPCIÓN": "ETIQUETA CONECTORES SINCRONISMOS",
+                    "PART NAME": "ADHESIVE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "I",
+                    "Nº PIEZA / PART NUMBER": "C00-9148",
+                    "DESCRIPCIÓN": "ADHESIVO CARGA M(cid:200)QUINA GB",
+                    "PART NAME": "GB CHARGE ADHESIVE",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "K",
+                    "Nº PIEZA / PART NUMBER": "334-010090",
+                    "DESCRIPCIÓN": "PORTADOCUMENTOS",
+                    "PART NAME": "DOCUMENT HOLDER",
+                    "CTD. / QTY.": "1"
+                }
+            ],
+            "table_page_num": 7
+        },
+        {
+            "drawing_page_num": 8,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/60301901047-07 SERVICE AND SPARE PARTS MANUAL  PDG-4/extracted_drawing_p8.png",
+            "pos_locations": {
+                "19": [
+                    [
+                        58.44,
+                        488.07,
+                        67.24,
+                        495.87
+                    ]
+                ],
+                "14": [
+                    [
+                        84.6,
+                        492.63,
+                        93.4,
+                        500.43
+                    ]
+                ],
+                "4": [
+                    [
+                        118.08,
+                        500.55,
+                        122.44,
+                        508.35
+                    ]
+                ],
+                "1": [
+                    [
+                        49.68,
+                        550.71,
+                        54.04,
+                        558.51
+                    ]
+                ],
+                "23": [
+                    [
+                        47.52,
+                        571.35,
+                        56.2,
+                        579.15
+                    ]
+                ],
+                "2": [
+                    [
+                        49.68,
+                        593.91,
+                        54.04,
+                        601.71
+                    ]
+                ],
+                "3": [
+                    [
+                        49.68,
+                        639.63,
+                        54.04,
+                        647.43
+                    ]
+                ],
+                "21": [
+                    [
+                        47.52,
+                        676.83,
+                        56.2,
+                        684.63
+                    ]
+                ],
+                "22": [
+                    [
+                        47.52,
+                        709.95,
+                        56.32,
+                        717.75
+                    ]
+                ],
+                "20": [
+                    [
+                        179.88,
+                        564.75,
+                        188.56,
+                        572.55
+                    ]
+                ],
+                "13": [
+                    [
+                        179.88,
+                        546.87,
+                        188.56,
+                        554.67
+                    ]
+                ],
+                "17": [
+                    [
+                        154.68,
+                        625.47,
+                        163.48,
+                        633.27
+                    ]
+                ],
+                "7": [
+                    [
+                        176.4,
+                        654.99,
+                        180.76,
+                        662.79
+                    ],
+                    [
+                        433.32,
+                        673.71,
+                        437.68,
+                        681.51
+                    ]
+                ],
+                "18": [
+                    [
+                        192.84,
+                        684.99,
+                        201.64,
+                        692.79
+                    ],
+                    [
+                        457.92,
+                        697.83,
+                        466.72,
+                        705.63
+                    ]
+                ],
+                "12": [
+                    [
+                        221.88,
+                        673.71,
+                        230.68,
+                        681.51
+                    ],
+                    [
+                        488.52,
+                        664.95,
+                        497.2,
+                        672.75
+                    ]
+                ],
+                "5": [
+                    [
+                        538.32,
+                        264.03,
+                        542.68,
+                        271.83
+                    ],
+                    [
+                        325.56,
+                        608.31,
+                        329.92,
+                        616.11
+                    ]
+                ],
+                "16": [
+                    [
+                        550.92,
+                        280.59,
+                        559.6,
+                        288.39
+                    ],
+                    [
+                        305.04,
+                        597.27,
+                        313.84,
+                        605.07
+                    ]
+                ],
+                "11": [
+                    [
+                        90.96,
+                        284.91,
+                        99.64,
+                        292.71
+                    ]
+                ],
+                "10": [
+                    [
+                        93.84,
+                        257.31,
+                        102.64,
+                        265.11
+                    ],
+                    [
+                        170.76,
+                        441.99,
+                        179.56,
+                        449.79
+                    ]
+                ],
+                "8": [
+                    [
+                        152.76,
+                        421.47,
+                        157.12,
+                        429.27
+                    ],
+                    [
+                        129.84,
+                        382.59,
+                        134.2,
+                        390.39
+                    ],
+                    [
+                        294.16,
+                        830.16,
+                        300.83,
+                        842.16
+                    ]
+                ],
+                "9": [
+                    [
+                        172.92,
+                        463.95,
+                        177.28,
+                        471.75
+                    ]
+                ],
+                "15": [
+                    [
+                        136.56,
+                        402.03,
+                        145.36,
+                        409.83
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "00C-1407",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 (cid:145)10 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "16"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "00C-3754",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x45 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "16"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0503PD0000230",
+                    "DESCRIPCIÓN": "PATA REGULABLE PD-3 H+MULTIPLE",
+                    "PART NAME": "ADJUSTABLE LEG",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0503PD00P0230",
+                    "DESCRIPCIÓN": "PATA SUSTENTACION",
+                    "PART NAME": "LEG",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0645PD0000400",
+                    "DESCRIPCIÓN": "TUBULAR EXTERIOR LAT.POST.DER",
+                    "PART NAME": "RIGHT LATERAL TUBE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0651PD00P0170",
+                    "DESCRIPCIÓN": "\"U\" TRANSPORTE",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0652PD0001400",
+                    "DESCRIPCIÓN": "TUBO HORIZONTAL CABLES PD-2",
+                    "PART NAME": "HORIZONTAL TUBE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0652PD0001405",
+                    "DESCRIPCIÓN": "TUBO VERTICAL ESTRECHO CABLES PD-2",
+                    "PART NAME": "VERTICAL SMALL TUBE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0652PD0001410",
+                    "DESCRIPCIÓN": "TUBO VERTICAL CABLES PD-2",
+                    "PART NAME": "VERTICAL TUBE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0652PD0001415",
+                    "DESCRIPCIÓN": "TUBO DER.VERTICAL CABLES P.D.-2",
+                    "PART NAME": "RIGHT VERTICAL TUBE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0910012000700",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B (cid:145)10 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "16"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0910012000800",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 (cid:145)12",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0910074001000",
+                    "DESCRIPCIÓN": "ARANDELA CASERA DIN 9021 Dn 12mm",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "D00067",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x10 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "12"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "D00085",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x10 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0911069002500",
+                    "DESCRIPCIÓN": "TORNILLO HEXAG. DIN EN 24017 M10 x 20",
+                    "PART NAME": "HEXAGONAL SCREW",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "0911069002600",
+                    "DESCRIPCIÓN": "TORNILLO HEXAG. DIN EN 24017 M10 x 25",
+                    "PART NAME": "HEXAGONAL SCREW",
+                    "CTD. / QTY.": "16"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "0911069004300",
+                    "DESCRIPCIÓN": "TORNILLO HEXAG. DIN EN 24017 M12 x 100",
+                    "PART NAME": "HEXAGONAL SCREW",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0913012000700",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M12 ZINC.",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "D00734",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M24 ZINC.",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "0917029000600",
+                    "DESCRIPCIÓN": "PIE ZINC M-24 L=245 (0917029000600)",
+                    "PART NAME": "FOOT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "CD0-0200",
+                    "DESCRIPCIÓN": "ARANDELA AET (cid:145)10 PAVONADO",
+                    "PART NAME": "AET WASHER (cid:145)10",
+                    "CTD. / QTY.": "16"
+                }
+            ],
+            "table_page_num": 9
+        }
+    ]
+}

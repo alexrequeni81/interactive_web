@@ -6,6 +6,7 @@ import re
 import argparse
 import sys
 import shutil
+import subprocess
 
 # Silence harmless Windows temp cleanup errors from Camelot/Ghostscript
 _rmtree = shutil.rmtree
@@ -214,6 +215,36 @@ def update_catalogs_json(catalog_id, pdf_filename):
             json.dump(catalogs, f, indent=2, ensure_ascii=False)
 
 
+def git_push(catalog_id, section_count):
+    print(f"\n-- Subiendo a GitHub --")
+    msg = f"feat: extract catalog '{catalog_id}' ({section_count} secciones)"
+    steps = [
+        ("Staging cambios ...", ["add", "-A"]),
+        ("Committing ...", ["commit", "-m", msg]),
+        ("Pushing a origin/main ...", ["push"]),
+    ]
+    for label, args in steps:
+        print(f"  {label}", end="", flush=True)
+        try:
+            r = subprocess.run(
+                ["git", *args],
+                capture_output=True, text=True, encoding="utf-8",
+                cwd=BASE_DIR
+            )
+        except FileNotFoundError:
+            print("  ERROR: git no encontrado. Instala Git o sube manualmente.")
+            return
+        if r.returncode != 0:
+            err = r.stderr.strip() or r.stdout.strip()
+            if "nothing to commit" in err.lower() or "nothing added" in err.lower():
+                print("  (sin cambios nuevos)")
+            else:
+                print(f"\n  ERROR: {err}")
+                return
+        print(" OK")
+    print(f"  OK - Publicado en https://alexrequeni81.github.io/interactive_web/")
+
+
 def process(pdf_path, pairs, output_dir, base_name, dpi, catalog_id, dry_run=False):
     os.makedirs(output_dir, exist_ok=True)
 
@@ -367,8 +398,14 @@ def main():
         print("  Cancelado.")
         return
 
-    process(pdf_path, pairs, catalog_output_dir, OUTPUT_BASE, args.dpi, catalog_id)
+    sections = process(pdf_path, pairs, catalog_output_dir, OUTPUT_BASE, args.dpi, catalog_id)
     update_catalogs_json(catalog_id, pdf_filename)
+
+    section_count = len(sections.get("sections", [])) if sections else 0
+    if section_count > 0:
+        upload = input("\nSubir a GitHub? (s/N): ").strip().lower()
+        if upload == "s":
+            git_push(catalog_id, section_count)
 
 
 if __name__ == "__main__":
