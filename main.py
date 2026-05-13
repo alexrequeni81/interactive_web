@@ -127,15 +127,15 @@ def extract_drawing(page, page_num, output_dir, base_name, dpi):
     return section
 
 
-COLUMN_ALIASES = {
-    "POS.": "POS.", "POS": "POS.", "ITEM": "POS.",
-    "Nº PIEZA / PART NUMBER": "Nº PIEZA / PART NUMBER",
-    "PIEZA / PART": "Nº PIEZA / PART NUMBER",
-    "DESCRIPCIÓN": "DESCRIPCIÓN",
-    "PART NAME": "PART NAME", "NAME": "PART NAME",
-    "CTD. / QTY.": "CTD. / QTY.", "CTD.": "CTD. / QTY.",
-    "QTY.": "CTD. / QTY.", "QTTY": "CTD. / QTY.",
-}
+_CID_RE = re.compile(r"\(cid:\d+\)")
+
+_CANON_RULES = [
+    (re.compile(r"^(POS\.|POS|ITEM)$", re.I), "POS."),
+    (re.compile(r"(PIEZA|PART NUMBER)", re.I), "N\u00ba PIEZA / PART NUMBER"),
+    (re.compile(r"DESCRIPCI", re.I), "DESCRIPCI\u00d3N"),
+    (re.compile(r"^(PART NAME|NAME)$", re.I), "PART NAME"),
+    (re.compile(r"CTD|QTY|QTTY", re.I), "CTD. / QTY."),
+]
 
 
 def _canonical(headers):
@@ -143,8 +143,12 @@ def _canonical(headers):
     canon = []
     has_pos = False
     for h in headers:
-        key = str(h).replace("\n", " ").strip()
-        mapped = COLUMN_ALIASES.get(key, key)
+        key = _CID_RE.sub("", str(h).replace("\n", " ").strip())
+        mapped = key
+        for pat, name in _CANON_RULES:
+            if pat.search(key):
+                mapped = name
+                break
         canon.append(mapped)
         if mapped == "POS.":
             has_pos = True
