@@ -5,6 +5,11 @@ import json
 import re
 import argparse
 import sys
+import shutil
+
+# Silence harmless Windows temp cleanup errors from Camelot/Ghostscript
+_rmtree = shutil.rmtree
+shutil.rmtree = lambda p, **kw: _rmtree(p, onerror=lambda *a: None, **kw)
 
 # --- Configuracion ---
 
