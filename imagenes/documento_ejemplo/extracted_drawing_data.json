@@ -1,0 +1,2825 @@
+{
+    "sections": [
+        {
+            "drawing_page_num": 8,
+            "pdf_page_width": 595.2,
+            "pdf_page_height": 841.92,
+            "image_path": "imagenes/documento_ejemplo/extracted_drawing_p8.png",
+            "pos_locations": {
+                "24": [
+                    [
+                        90.96,
+                        183.44,
+                        99.65,
+                        192.22
+                    ]
+                ],
+                "23": [
+                    [
+                        159.36,
+                        248.48,
+                        168.05,
+                        257.26
+                    ]
+                ],
+                "22": [
+                    [
+                        354.96,
+                        128.0,
+                        363.89,
+                        136.78
+                    ]
+                ],
+                "21": [
+                    [
+                        372.24,
+                        112.64,
+                        381.17,
+                        121.42
+                    ]
+                ],
+                "13": [
+                    [
+                        434.4,
+                        132.32,
+                        443.33,
+                        141.1
+                    ]
+                ],
+                "6": [
+                    [
+                        419.52,
+                        132.32,
+                        423.89,
+                        141.1
+                    ]
+                ],
+                "20": [
+                    [
+                        374.4,
+                        536.0,
+                        383.33,
+                        544.78
+                    ],
+                    [
+                        126.48,
+                        426.8,
+                        135.17,
+                        435.58
+                    ],
+                    [
+                        522.0,
+                        450.08,
+                        530.69,
+                        458.86
+                    ]
+                ],
+                "17": [
+                    [
+                        374.4,
+                        508.88,
+                        383.33,
+                        517.66
+                    ],
+                    [
+                        126.48,
+                        412.88,
+                        135.17,
+                        421.66
+                    ],
+                    [
+                        540.96,
+                        437.12,
+                        549.89,
+                        445.9
+                    ]
+                ],
+                "12": [
+                    [
+                        275.28,
+                        496.64,
+                        283.97,
+                        505.42
+                    ],
+                    [
+                        126.48,
+                        373.76,
+                        135.17,
+                        382.54
+                    ],
+                    [
+                        545.76,
+                        308.24,
+                        554.45,
+                        317.02
+                    ]
+                ],
+                "1": [
+                    [
+                        376.56,
+                        487.76,
+                        380.93,
+                        496.54
+                    ],
+                    [
+                        203.76,
+                        429.44,
+                        208.13,
+                        438.22
+                    ],
+                    [
+                        543.12,
+                        415.76,
+                        547.49,
+                        424.54
+                    ]
+                ],
+                "11": [
+                    [
+                        130.32,
+                        257.6,
+                        139.01,
+                        266.38
+                    ],
+                    [
+                        70.32,
+                        326.72,
+                        79.01,
+                        335.5
+                    ],
+                    [
+                        200.88,
+                        382.4,
+                        209.57,
+                        391.18
+                    ]
+                ],
+                "5": [
+                    [
+                        132.48,
+                        240.56,
+                        136.85,
+                        249.34
+                    ],
+                    [
+                        55.44,
+                        326.72,
+                        59.81,
+                        335.5
+                    ]
+                ],
+                "15": [
+                    [
+                        272.16,
+                        399.68,
+                        280.85,
+                        408.46
+                    ]
+                ],
+                "10": [
+                    [
+                        272.16,
+                        416.48,
+                        280.85,
+                        425.26
+                    ]
+                ],
+                "16": [
+                    [
+                        239.76,
+                        405.68,
+                        248.69,
+                        414.46
+                    ]
+                ],
+                "8": [
+                    [
+                        242.16,
+                        422.72,
+                        246.53,
+                        431.5
+                    ],
+                    [
+                        294.55,
+                        822.84,
+                        300.66,
+                        837.57
+                    ]
+                ],
+                "7": [
+                    [
+                        203.04,
+                        399.44,
+                        207.41,
+                        408.22
+                    ]
+                ],
+                "2": [
+                    [
+                        224.88,
+                        387.44,
+                        229.25,
+                        396.22
+                    ]
+                ],
+                "19": [
+                    [
+                        458.4,
+                        425.36,
+                        467.09,
+                        434.14
+                    ]
+                ],
+                "9": [
+                    [
+                        460.56,
+                        442.4,
+                        464.93,
+                        451.18
+                    ]
+                ],
+                "3": [
+                    [
+                        437.04,
+                        428.48,
+                        441.41,
+                        437.26
+                    ]
+                ],
+                "14": [
+                    [
+                        528.0,
+                        260.96,
+                        536.69,
+                        269.74
+                    ]
+                ],
+                "4": [
+                    [
+                        530.16,
+                        243.92,
+                        534.53,
+                        252.7
+                    ]
+                ],
+                "24.5": [
+                    [
+                        142.32,
+                        711.68,
+                        157.74,
+                        720.46
+                    ]
+                ],
+                "24.4": [
+                    [
+                        162.0,
+                        760.88,
+                        177.41,
+                        769.66
+                    ]
+                ],
+                "24.3": [
+                    [
+                        132.96,
+                        674.72,
+                        148.37,
+                        683.5
+                    ]
+                ],
+                "24.2": [
+                    [
+                        231.84,
+                        697.28,
+                        247.25,
+                        706.06
+                    ]
+                ],
+                "24.1": [
+                    [
+                        251.76,
+                        697.28,
+                        267.16,
+                        706.06
+                    ]
+                ],
+                "24.6": [
+                    [
+                        271.44,
+                        697.28,
+                        286.85,
+                        706.06
+                    ]
+                ],
+                "25": [
+                    [
+                        414.48,
+                        438.08,
+                        423.41,
+                        446.86
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "0503CA0000450",
+                    "DESCRIPCIÓN": "SOPORTE PATAS PERFIL UPN CA9-S",
+                    "PART NAME": "HOLDER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "0643CA0000200",
+                    "DESCRIPCIÓN": "FIJACION CONECTORES TSL+MR",
+                    "PART NAME": "CONECTORS FIXATION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0652CA00P0350",
+                    "DESCRIPCIÓN": "SOPORTE CONECTORES TRASERO",
+                    "PART NAME": "HOLDER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0910012000300",
+                    "DESCRIPCIÓN": "Arandela Ý 5 Zinc. DIN 125-B",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0910012000400",
+                    "DESCRIPCIÓN": "Arandela Ý 6 Zinc. DIN 125-B",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0910012000700",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø10 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0910013000400",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø6 INOX.",
+                    "PART NAME": "WASHER DIN 125 Ø6 STAINLESS",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0910013000700",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 INOX.",
+                    "PART NAME": "WASHER DIN 125 Ø10 STAINLESS",
+                    "CTD. / QTY.": "16"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0910022000200",
+                    "DESCRIPCIÓN": "ARANDELA DIN 127 Ø5 ZINCADO",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0910022000500",
+                    "DESCRIPCIÓN": "ARANDELA DIN 127 Ø10 ZINCADO",
+                    "PART NAME": "WASHER DIN 127 Ø10 ZINC",
+                    "CTD. / QTY.": "12"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0911052004500",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "6"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0911052006000",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x16 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 912 M8 x16 ZINC 8.8",
+                    "CTD. / QTY.": "24"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0911052007600",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x25 ZINCADO 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0911053003100",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x20 INOX. 8.8",
+                    "PART NAME": "SCREW DIN 912 M5 x20 STAINLESS 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "0911053007700",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x30 INOX. 8.8",
+                    "PART NAME": "SCREW DIN 912 M10 x30 STAINLESS 8.8",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "0911053007800",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x35 INOX. 8.8",
+                    "PART NAME": "SCREW DIN 912 M10 x35 STAINLESS 8.8",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0913012001400",
+                    "DESCRIPCIÓN": "TUERCA M-24 ZINC.DIN 934",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "0913013000600",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 INOX.",
+                    "PART NAME": "NUT DIN 934 M10 STAINLESS",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "0913030000200",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 985 M5 INOX.",
+                    "PART NAME": "NUT DIN 985 M5 STAINLESS",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0917029000200",
+                    "DESCRIPCIÓN": "PIE ART.ZINC M.24 D-110 L-163 C/TUERCA",
+                    "PART NAME": "FOOT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "234-000002",
+                    "DESCRIPCIÓN": "CORAZA INFERIOR DERECHA CA9-S (CAJON)",
+                    "PART NAME": "LATERAL GUARD",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "234-000003",
+                    "DESCRIPCIÓN": "SUPLEMENTO LATERAL",
+                    "PART NAME": "SUPPLEMENT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "234-000004",
+                    "DESCRIPCIÓN": "CORAZA INFERIOR DERECHA CA9-S",
+                    "PART NAME": "LATERAL GUARD",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "335-010008",
+                    "DESCRIPCIÓN": "BRAZO SOPORTE PANEL SOLDADO",
+                    "PART NAME": "PANNEL SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "335-010009",
+                    "DESCRIPCIÓN": "Viga transversal posterior",
+                    "PART NAME": "",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "00C-3753",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x25 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 912 M10X25",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "24.1",
+                    "Nº PIEZA / PART NUMBER": "00C-1401",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø4 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "24.2",
+                    "Nº PIEZA / PART NUMBER": "00C-8800",
+                    "DESCRIPCIÓN": "TORNILLO ULS (ISO7380) M4 x6 ZINCADO 8.8",
+                    "PART NAME": "SCREW ULS M4X6",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "24.3",
+                    "Nº PIEZA / PART NUMBER": "335-010002",
+                    "DESCRIPCIÓN": "SOPORTE PC PANEL Y G+ PARA CA9",
+                    "PART NAME": "PANEL SUPPORT FOR PC PANEL WITH G+",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "24.4",
+                    "Nº PIEZA / PART NUMBER": "335-010005",
+                    "DESCRIPCIÓN": "TAPA INFERIOR BRAZO SOPORTE PANEL",
+                    "PART NAME": "LOWER COVER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "24.5",
+                    "Nº PIEZA / PART NUMBER": "335-010006",
+                    "DESCRIPCIÓN": "TAPETA INTERMEDIA BRAZO SOPORTE PANEL",
+                    "PART NAME": "INTERMEDIATE COVER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "24.6",
+                    "Nº PIEZA / PART NUMBER": "CD0-0327",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø4 PAVONADO",
+                    "PART NAME": "AET WASHER Ø4",
+                    "CTD. / QTY.": "8"
+                }
+            ],
+            "table_page_num": 9
+        },
+        {
+            "drawing_page_num": 10,
+            "pdf_page_width": 595.2,
+            "pdf_page_height": 841.92,
+            "image_path": "imagenes/documento_ejemplo/extracted_drawing_p10.png",
+            "pos_locations": {
+                "1": [
+                    [
+                        137.04,
+                        253.04,
+                        141.41,
+                        261.82
+                    ]
+                ],
+                "4": [
+                    [
+                        90.24,
+                        325.76,
+                        94.61,
+                        334.54
+                    ],
+                    [
+                        216.96,
+                        628.64,
+                        221.33,
+                        637.42
+                    ]
+                ],
+                "11": [
+                    [
+                        288.0,
+                        627.44,
+                        296.69,
+                        636.22
+                    ]
+                ],
+                "9": [
+                    [
+                        262.8,
+                        627.44,
+                        267.17,
+                        636.22
+                    ]
+                ],
+                "7": [
+                    [
+                        241.44,
+                        628.64,
+                        245.81,
+                        637.42
+                    ],
+                    [
+                        197.52,
+                        627.92,
+                        201.89,
+                        636.7
+                    ],
+                    [
+                        176.16,
+                        489.2,
+                        180.53,
+                        497.98
+                    ]
+                ],
+                "10": [
+                    [
+                        148.56,
+                        627.2,
+                        157.25,
+                        635.98
+                    ],
+                    [
+                        291.12,
+                        822.84,
+                        303.35,
+                        837.57
+                    ]
+                ],
+                "8": [
+                    [
+                        176.88,
+                        627.44,
+                        181.25,
+                        636.22
+                    ]
+                ],
+                "14": [
+                    [
+                        170.4,
+                        517.52,
+                        179.09,
+                        526.3
+                    ]
+                ],
+                "3": [
+                    [
+                        468.72,
+                        582.8,
+                        473.09,
+                        591.58
+                    ]
+                ],
+                "5": [
+                    [
+                        367.2,
+                        582.8,
+                        371.57,
+                        591.58
+                    ]
+                ],
+                "13": [
+                    [
+                        395.28,
+                        579.68,
+                        403.97,
+                        588.46
+                    ]
+                ],
+                "2": [
+                    [
+                        366.96,
+                        512.48,
+                        371.33,
+                        521.26
+                    ]
+                ],
+                "6": [
+                    [
+                        129.6,
+                        311.84,
+                        133.97,
+                        320.62
+                    ],
+                    [
+                        385.92,
+                        488.96,
+                        390.29,
+                        497.74
+                    ]
+                ],
+                "12": [
+                    [
+                        511.2,
+                        580.4,
+                        519.89,
+                        589.18
+                    ],
+                    [
+                        531.36,
+                        388.4,
+                        540.29,
+                        397.18
+                    ]
+                ],
+                "17": [
+                    [
+                        546.48,
+                        400.64,
+                        555.41,
+                        409.42
+                    ],
+                    [
+                        553.92,
+                        491.12,
+                        562.61,
+                        499.9
+                    ],
+                    [
+                        312.48,
+                        519.44,
+                        321.17,
+                        528.22
+                    ],
+                    [
+                        311.76,
+                        615.2,
+                        320.45,
+                        623.98
+                    ]
+                ],
+                "16": [
+                    [
+                        552.48,
+                        419.6,
+                        561.41,
+                        428.38
+                    ],
+                    [
+                        553.92,
+                        472.64,
+                        562.61,
+                        481.42
+                    ],
+                    [
+                        309.36,
+                        540.08,
+                        318.05,
+                        548.86
+                    ],
+                    [
+                        307.68,
+                        595.04,
+                        316.37,
+                        603.82
+                    ]
+                ],
+                "15": [
+                    [
+                        510.48,
+                        421.52,
+                        519.17,
+                        430.3
+                    ]
+                ],
+                "20": [
+                    [
+                        551.76,
+                        452.96,
+                        560.45,
+                        461.74
+                    ],
+                    [
+                        307.68,
+                        574.4,
+                        316.37,
+                        583.18
+                    ]
+                ],
+                "19": [
+                    [
+                        533.04,
+                        579.44,
+                        541.73,
+                        588.22
+                    ]
+                ],
+                "18": [
+                    [
+                        550.08,
+                        529.76,
+                        558.77,
+                        538.54
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "334-020500",
+                    "DESCRIPCIÓN": "CJTO. CARRO",
+                    "PART NAME": "SHUTTLE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "0629CAV0N0010",
+                    "DESCRIPCIÓN": "DISTANC. AMARRE MANIVELA-CARRO D=30 L=44",
+                    "PART NAME": "SPACER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0635CA00N0030",
+                    "DESCRIPCIÓN": "EJE MANIVELA EX.15X431",
+                    "PART NAME": "SHAFT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0650CA00N0010",
+                    "DESCRIPCIÓN": "SOPORTE ANGULAR EJES GUIA",
+                    "PART NAME": "HOLDER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0682CA00P0120",
+                    "DESCRIPCIÓN": "SOPORTE LUPA ART. ROSCA IZQDAS",
+                    "PART NAME": "HOLDER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0699CAV000010",
+                    "DESCRIPCIÓN": "EJE-GUIA CARRO 20 x 800 mm",
+                    "PART NAME": "SHAFT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0910012000700",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø10 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "14"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0910022000500",
+                    "DESCRIPCIÓN": "Arandela Gr. Ý10 Zinc. DIN 127",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "6"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0910023000500",
+                    "DESCRIPCIÓN": "ARANDELA DIN 127 Ø10 INOX.",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0911052007500",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x20 ZINCADO 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0911053007700",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x30 INOX. 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0913012000800",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M12x1.5 ZINCADO",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0913012000900",
+                    "DESCRIPCIÓN": "TUERCA M12-1.5 ZINC.DIN934 izq.",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0913013000600",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 INOX.",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "0682CA00P0125",
+                    "DESCRIPCIÓN": "SOPORTE LUPA ART. ROSCA DCHAS.",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "0920014000100",
+                    "DESCRIPCIÓN": "GUARDAPOLVO 1201 JV",
+                    "PART NAME": "DUST COVER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0916022000600",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 472 I-32",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "CD0-0597",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø12 PAVONADO",
+                    "PART NAME": "AET WASHER Ø12",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "D01657",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M12 x55 ZINCADO 10.9",
+                    "PART NAME": "DIN 933 BOLT M12 x55 ZIN 10.9",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0920014000200",
+                    "DESCRIPCIÓN": "RODAMIENTO BOLAS A ROTULA DIN 630 SKF 1201 E",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                }
+            ],
+            "table_page_num": 11
+        },
+        {
+            "drawing_page_num": 12,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/documento_ejemplo/extracted_drawing_p12.png",
+            "pos_locations": {
+                "2.1": [
+                    [
+                        22.68,
+                        56.81,
+                        38.97,
+                        68.51
+                    ]
+                ],
+                "14": [
+                    [
+                        81.72,
+                        166.51,
+                        89.51,
+                        173.53
+                    ]
+                ],
+                "24": [
+                    [
+                        486.36,
+                        268.94,
+                        494.15,
+                        275.96
+                    ],
+                    [
+                        361.98,
+                        382.7,
+                        369.77,
+                        389.71
+                    ],
+                    [
+                        81.72,
+                        275.06,
+                        89.51,
+                        282.08
+                    ]
+                ],
+                "26": [
+                    [
+                        445.86,
+                        269.12,
+                        453.65,
+                        276.14
+                    ],
+                    [
+                        351.0,
+                        359.65,
+                        358.61,
+                        366.67
+                    ]
+                ],
+                "27": [
+                    [
+                        423.9,
+                        270.56,
+                        431.51,
+                        277.58
+                    ],
+                    [
+                        306.72,
+                        397.99,
+                        314.51,
+                        405.01
+                    ]
+                ],
+                "7": [
+                    [
+                        438.12,
+                        254.89,
+                        441.95,
+                        261.91
+                    ],
+                    [
+                        323.82,
+                        403.4,
+                        327.65,
+                        410.42
+                    ]
+                ],
+                "12": [
+                    [
+                        411.48,
+                        254.89,
+                        419.09,
+                        261.91
+                    ],
+                    [
+                        401.04,
+                        328.33,
+                        408.65,
+                        335.35
+                    ],
+                    [
+                        291.05,
+                        823.04,
+                        303.29,
+                        837.77
+                    ]
+                ],
+                "2": [
+                    [
+                        419.04,
+                        332.83,
+                        422.87,
+                        339.85
+                    ]
+                ],
+                "6": [
+                    [
+                        336.42,
+                        491.6,
+                        340.25,
+                        498.61
+                    ]
+                ],
+                "8": [
+                    [
+                        359.1,
+                        574.21,
+                        362.93,
+                        581.23
+                    ]
+                ],
+                "9": [
+                    [
+                        83.7,
+                        291.07,
+                        87.53,
+                        298.09
+                    ]
+                ],
+                "10": [
+                    [
+                        81.72,
+                        320.6,
+                        89.51,
+                        327.61
+                    ]
+                ],
+                "1": [
+                    [
+                        368.82,
+                        452.18,
+                        372.65,
+                        459.2
+                    ]
+                ],
+                "30": [
+                    [
+                        530.82,
+                        458.65,
+                        538.43,
+                        465.67
+                    ]
+                ],
+                "4": [
+                    [
+                        546.48,
+                        443.71,
+                        550.31,
+                        450.73
+                    ],
+                    [
+                        546.48,
+                        471.8,
+                        550.31,
+                        478.82
+                    ]
+                ],
+                "25": [
+                    [
+                        112.86,
+                        432.55,
+                        120.65,
+                        439.57
+                    ]
+                ],
+                "23": [
+                    [
+                        81.72,
+                        341.65,
+                        89.51,
+                        348.67
+                    ]
+                ],
+                "13": [
+                    [
+                        81.72,
+                        362.9,
+                        89.51,
+                        369.92
+                    ]
+                ],
+                "15": [
+                    [
+                        100.62,
+                        386.48,
+                        108.23,
+                        393.49
+                    ]
+                ],
+                "3": [
+                    [
+                        240.66,
+                        347.6,
+                        244.49,
+                        354.61
+                    ]
+                ],
+                "11": [
+                    [
+                        272.88,
+                        328.7,
+                        280.49,
+                        335.71
+                    ]
+                ],
+                "29": [
+                    [
+                        112.86,
+                        454.88,
+                        120.65,
+                        461.89
+                    ]
+                ],
+                "20": [
+                    [
+                        505.08,
+                        193.51,
+                        512.69,
+                        200.53
+                    ]
+                ],
+                "19": [
+                    [
+                        519.3,
+                        204.5,
+                        526.91,
+                        211.52
+                    ],
+                    [
+                        520.2,
+                        244.63,
+                        527.81,
+                        251.65
+                    ]
+                ],
+                "18": [
+                    [
+                        505.08,
+                        215.83,
+                        512.69,
+                        222.85
+                    ],
+                    [
+                        502.92,
+                        235.45,
+                        510.71,
+                        242.47
+                    ]
+                ],
+                "22": [
+                    [
+                        519.84,
+                        225.56,
+                        527.45,
+                        232.58
+                    ]
+                ],
+                "21": [
+                    [
+                        503.1,
+                        254.18,
+                        510.89,
+                        261.2
+                    ]
+                ],
+                "17": [
+                    [
+                        373.86,
+                        263.0,
+                        381.47,
+                        270.02
+                    ]
+                ],
+                "16": [
+                    [
+                        346.14,
+                        278.3,
+                        353.75,
+                        285.32
+                    ]
+                ],
+                "35": [
+                    [
+                        176.22,
+                        387.2,
+                        183.83,
+                        394.21
+                    ]
+                ],
+                "34": [
+                    [
+                        369.72,
+                        476.48,
+                        377.51,
+                        483.49
+                    ]
+                ],
+                "36": [
+                    [
+                        39.96,
+                        468.55,
+                        47.75,
+                        475.57
+                    ]
+                ],
+                "5": [
+                    [
+                        249.3,
+                        435.8,
+                        253.13,
+                        442.82
+                    ]
+                ],
+                "28": [
+                    [
+                        160.92,
+                        417.8,
+                        168.53,
+                        424.82
+                    ]
+                ],
+                "33": [
+                    [
+                        346.14,
+                        514.09,
+                        353.93,
+                        521.11
+                    ]
+                ],
+                "32": [
+                    [
+                        324.54,
+                        519.14,
+                        332.15,
+                        526.16
+                    ]
+                ],
+                "31": [
+                    [
+                        337.32,
+                        528.85,
+                        344.93,
+                        535.88
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "0682CA0000020",
+                    "DESCRIPCIÓN": "SOPORTE DE CORREDERA IZQUIERDO",
+                    "PART NAME": "LEFT SUPPORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000010",
+                    "DESCRIPCIÓN": "DISTANCIADOR CORREDERAS CA8",
+                    "PART NAME": "SPACER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0682CA0000010",
+                    "DESCRIPCIÓN": "SOPORTE DE CORREDERA DERECHO",
+                    "PART NAME": "RIGHT SUPPOORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0916012001900",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 471 E-32",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0649CA00N0020",
+                    "DESCRIPCIÓN": "SOP. ANG. DERECHO INFERIOR 25x25x3x420",
+                    "PART NAME": "RIGHT ANGLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0649CA00N0030",
+                    "DESCRIPCIÓN": "SOP. ANG. IZQDO. INFERIOR 25x25x3x420",
+                    "PART NAME": "LEFT ANGLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0910057000500",
+                    "DESCRIPCIÓN": "ARANDELA DIN 6797-A (cid:145)8.2",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000040",
+                    "DESCRIPCIÓN": "PIEZA UNION CORREDERAS DE CA9",
+                    "PART NAME": "SLIDING UNION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000050",
+                    "DESCRIPCIÓN": "SOP. ANG. DCHO. SUPERIOR(2)",
+                    "PART NAME": "UPPER RIGHT SUPPORT 2",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000030",
+                    "DESCRIPCIÓN": "SOP. ANG. DCHO. SUPERIOR(1)",
+                    "PART NAME": "UPPER RIGHT SUPPORT 1",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000040",
+                    "DESCRIPCIÓN": "SOP. ANG. IZQDO SUPERIOR(1)",
+                    "PART NAME": "UPPER LEFT SUPPORT 1",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000060",
+                    "DESCRIPCIÓN": "SOP. ANG. IZQDO SUPERIOR(2)",
+                    "PART NAME": "UPPER LEFT SUPPORT 2",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000005",
+                    "DESCRIPCIÓN": "SOPORTE ROD. RODILLO DELANTERO",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0690CA0000010",
+                    "DESCRIPCIÓN": "ESPONJA PARA MESA DE CARRO",
+                    "PART NAME": "FOAM",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "0510CA00N0010",
+                    "DESCRIPCIÓN": "RODILLO COMPLETO DE CORREDERA",
+                    "PART NAME": "ROLLER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "0668CA0000010",
+                    "DESCRIPCIÓN": "MESA SOPORTE DEL CARRO",
+                    "PART NAME": "TABLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0911052004600",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x16 ZINCADO 8.8",
+                    "PART NAME": "DIN 912 BOLT M6X16",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "0910012000400",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B (cid:145)6 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "0910022000300",
+                    "DESCRIPCIÓN": "ARANDELA DIN 127 (cid:145)6 ZINCADO",
+                    "PART NAME": "WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0911052004800",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x25 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "0913012000400",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M6 ZINCADO",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000006",
+                    "DESCRIPCIÓN": "REGLETA SUJ. CUBIERTA MESA",
+                    "PART NAME": "SOCKET",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "0920014002800",
+                    "DESCRIPCIÓN": "RODAMIENTO 608 2RS",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "0911052004900",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x30 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "0911087001800",
+                    "DESCRIPCIÓN": "TORNILLO DIN 7991 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 7991 M6 x12 ZINC 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "0911052004500",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "27",
+                    "Nº PIEZA / PART NUMBER": "0911052006000",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x16 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "12"
+                },
+                {
+                    "POS.": "28",
+                    "Nº PIEZA / PART NUMBER": "0911052004400",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x10 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "29",
+                    "Nº PIEZA / PART NUMBER": "334-020104",
+                    "DESCRIPCIÓN": "ENCAJADOR INFERIOR CARRO CA10 C2C",
+                    "PART NAME": "LOWER PLATE CA-10 C2C",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "30",
+                    "Nº PIEZA / PART NUMBER": "0920015001350",
+                    "DESCRIPCIÓN": "RODAMIENTO L. STAR 0670-220-40",
+                    "PART NAME": "BALL BEARING L. STAR 0670-220-40",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "31",
+                    "Nº PIEZA / PART NUMBER": "00C-4415",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M6 x20 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 933 M6X20",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "32",
+                    "Nº PIEZA / PART NUMBER": "00C-4605",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M6 ZINCADO",
+                    "PART NAME": "EXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "33",
+                    "Nº PIEZA / PART NUMBER": "00C-9501",
+                    "DESCRIPCIÓN": "TUERCA AUTOBLOC. DIN 985 M6 ZINCADO",
+                    "PART NAME": "DIN-985 M6 EXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "34",
+                    "Nº PIEZA / PART NUMBER": "504-020009",
+                    "DESCRIPCIÓN": "ESCUADRA SOPORTE PLACA DCHA.",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "35",
+                    "Nº PIEZA / PART NUMBER": "504-020012",
+                    "DESCRIPCIÓN": "ESCUADRA SOPORTE PLACA IZQ.",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "36",
+                    "Nº PIEZA / PART NUMBER": "504-060010",
+                    "DESCRIPCIÓN": "Placa encajadora",
+                    "PART NAME": "PLATE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "37",
+                    "Nº PIEZA / PART NUMBER": "00C-1404",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 (cid:145)6 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "4"
+                }
+            ],
+            "table_page_num": 13
+        },
+        {
+            "drawing_page_num": 14,
+            "pdf_page_width": 595.2,
+            "pdf_page_height": 841.92,
+            "image_path": "imagenes/documento_ejemplo/extracted_drawing_p14.png",
+            "pos_locations": {
+                "32": [
+                    [
+                        44.4,
+                        230.93,
+                        53.52,
+                        241.0
+                    ]
+                ],
+                "31": [
+                    [
+                        44.4,
+                        200.93,
+                        53.52,
+                        211.0
+                    ]
+                ],
+                "34": [
+                    [
+                        46.8,
+                        157.25,
+                        55.92,
+                        167.32
+                    ]
+                ],
+                "21": [
+                    [
+                        439.68,
+                        278.69,
+                        448.8,
+                        288.76
+                    ],
+                    [
+                        374.64,
+                        156.53,
+                        383.76,
+                        166.6
+                    ]
+                ],
+                "23": [
+                    [
+                        439.68,
+                        299.57,
+                        448.8,
+                        309.64
+                    ],
+                    [
+                        445.2,
+                        738.77,
+                        454.32,
+                        748.84
+                    ],
+                    [
+                        159.6,
+                        746.93,
+                        168.72,
+                        757.0
+                    ]
+                ],
+                "27": [
+                    [
+                        348.0,
+                        342.29,
+                        357.12,
+                        352.36
+                    ],
+                    [
+                        267.12,
+                        374.93,
+                        276.24,
+                        385.0
+                    ]
+                ],
+                "9": [
+                    [
+                        252.72,
+                        312.53,
+                        257.28,
+                        322.6
+                    ],
+                    [
+                        253.68,
+                        355.49,
+                        258.24,
+                        365.56
+                    ]
+                ],
+                "33": [
+                    [
+                        68.4,
+                        344.69,
+                        77.52,
+                        354.76
+                    ]
+                ],
+                "11": [
+                    [
+                        68.4,
+                        370.37,
+                        77.52,
+                        380.44
+                    ]
+                ],
+                "10": [
+                    [
+                        248.88,
+                        392.93,
+                        258.0,
+                        403.0
+                    ]
+                ],
+                "28": [
+                    [
+                        90.48,
+                        499.73,
+                        99.6,
+                        509.8
+                    ],
+                    [
+                        398.4,
+                        380.21,
+                        407.52,
+                        390.28
+                    ],
+                    [
+                        434.4,
+                        406.37,
+                        443.52,
+                        416.44
+                    ]
+                ],
+                "2": [
+                    [
+                        93.36,
+                        536.21,
+                        97.92,
+                        546.28
+                    ]
+                ],
+                "19": [
+                    [
+                        445.2,
+                        781.49,
+                        454.32,
+                        791.56
+                    ],
+                    [
+                        159.6,
+                        691.49,
+                        168.72,
+                        701.56
+                    ]
+                ],
+                "22": [
+                    [
+                        445.2,
+                        757.97,
+                        454.32,
+                        768.04
+                    ],
+                    [
+                        159.6,
+                        719.81,
+                        168.72,
+                        729.88
+                    ],
+                    [
+                        394.08,
+                        588.05,
+                        403.2,
+                        598.12
+                    ],
+                    [
+                        357.6,
+                        173.81,
+                        366.72,
+                        183.88
+                    ]
+                ],
+                "3": [
+                    [
+                        447.36,
+                        720.05,
+                        451.92,
+                        730.12
+                    ]
+                ],
+                "1": [
+                    [
+                        447.36,
+                        683.57,
+                        451.92,
+                        693.64
+                    ]
+                ],
+                "12": [
+                    [
+                        510.96,
+                        585.65,
+                        520.08,
+                        595.72
+                    ]
+                ],
+                "8": [
+                    [
+                        162.0,
+                        600.29,
+                        166.56,
+                        610.36
+                    ]
+                ],
+                "25": [
+                    [
+                        195.36,
+                        442.85,
+                        204.72,
+                        452.92
+                    ]
+                ],
+                "30": [
+                    [
+                        187.2,
+                        464.93,
+                        196.32,
+                        475.0
+                    ],
+                    [
+                        187.2,
+                        510.29,
+                        196.32,
+                        520.36
+                    ]
+                ],
+                "26": [
+                    [
+                        187.2,
+                        489.17,
+                        196.32,
+                        499.24
+                    ]
+                ],
+                "37": [
+                    [
+                        443.28,
+                        453.17,
+                        452.4,
+                        463.24
+                    ],
+                    [
+                        237.6,
+                        418.13,
+                        246.72,
+                        428.2
+                    ]
+                ],
+                "7": [
+                    [
+                        461.28,
+                        511.73,
+                        465.84,
+                        521.8
+                    ]
+                ],
+                "6": [
+                    [
+                        225.6,
+                        439.97,
+                        230.16,
+                        450.04
+                    ]
+                ],
+                "24": [
+                    [
+                        390.0,
+                        564.29,
+                        399.12,
+                        574.36
+                    ],
+                    [
+                        378.48,
+                        184.85,
+                        387.6,
+                        194.92
+                    ]
+                ],
+                "20": [
+                    [
+                        383.28,
+                        609.89,
+                        392.4,
+                        619.96
+                    ]
+                ],
+                "5": [
+                    [
+                        407.52,
+                        404.21,
+                        412.08,
+                        414.28
+                    ]
+                ],
+                "35": [
+                    [
+                        390.0,
+                        208.61,
+                        399.12,
+                        218.68
+                    ]
+                ],
+                "29": [
+                    [
+                        468.72,
+                        476.21,
+                        477.84,
+                        486.28
+                    ]
+                ],
+                "13": [
+                    [
+                        445.2,
+                        651.17,
+                        454.32,
+                        661.24
+                    ]
+                ],
+                "16": [
+                    [
+                        259.44,
+                        674.93,
+                        268.56,
+                        685.0
+                    ]
+                ],
+                "17": [
+                    [
+                        235.68,
+                        646.85,
+                        244.8,
+                        656.92
+                    ]
+                ],
+                "15": [
+                    [
+                        253.2,
+                        626.45,
+                        262.32,
+                        636.52
+                    ]
+                ],
+                "14": [
+                    [
+                        230.64,
+                        628.37,
+                        239.76,
+                        638.44
+                    ],
+                    [
+                        291.13,
+                        822.96,
+                        303.36,
+                        837.69
+                    ]
+                ],
+                "43": [
+                    [
+                        454.8,
+                        433.73,
+                        463.92,
+                        443.8
+                    ]
+                ],
+                "41": [
+                    [
+                        473.04,
+                        433.49,
+                        482.16,
+                        443.56
+                    ]
+                ],
+                "42": [
+                    [
+                        491.28,
+                        433.73,
+                        500.4,
+                        443.8
+                    ]
+                ],
+                "4": [
+                    [
+                        256.8,
+                        501.17,
+                        261.36,
+                        511.24
+                    ]
+                ],
+                "36": [
+                    [
+                        219.36,
+                        418.13,
+                        228.48,
+                        428.2
+                    ]
+                ],
+                "40": [
+                    [
+                        121.68,
+                        433.97,
+                        130.8,
+                        444.04
+                    ]
+                ],
+                "39": [
+                    [
+                        121.68,
+                        414.05,
+                        130.8,
+                        424.12
+                    ]
+                ],
+                "38": [
+                    [
+                        121.44,
+                        395.09,
+                        130.56,
+                        405.16
+                    ]
+                ],
+                "18": [
+                    [
+                        445.2,
+                        702.29,
+                        454.32,
+                        712.36
+                    ],
+                    [
+                        208.8,
+                        663.89,
+                        217.92,
+                        673.96
+                    ]
+                ],
+                "44": [
+                    [
+                        376.32,
+                        133.73,
+                        385.44,
+                        143.8
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "335-100012",
+                    "DESCRIPCIÓN": "MANIVELA ACCIONAMIENTO CARRO",
+                    "PART NAME": "CA-9 DRIVE CRANK",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "335-100011",
+                    "DESCRIPCIÓN": "EJE CONDUCIDO DE LA CA9 D=30 L=215",
+                    "PART NAME": "DRIVE SHAFT OF CA-9",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "335-100013",
+                    "DESCRIPCIÓN": "CIERRE MANIVELA",
+                    "PART NAME": "CRANK LOCK",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "335-100014",
+                    "DESCRIPCIÓN": "EJE MOTRIZ DE LA CA9 D=30 L=229",
+                    "PART NAME": "DRIVING SHAFT FOR CA-9/10",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0503CA0000060",
+                    "DESCRIPCIÓN": "TUBO CABLES DETECTOR CA9S",
+                    "PART NAME": "TUBE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0504CA0000020",
+                    "DESCRIPCIÓN": "ESPARRAGO TENSOR CON TUERCA L=140",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0504CA00P0020",
+                    "DESCRIPCIÓN": "PLACA SOPORTE MOTOR COMPLETA",
+                    "PART NAME": "PLATE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0629CA0000110",
+                    "DESCRIPCIÓN": "SOPORTE EJE CONDUCIDO D=100 L=80",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0629CA00N0080",
+                    "DESCRIPCIÓN": "RUEDA DETECTOR CARRO D=60 L=20",
+                    "PART NAME": "WHEEL",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0652CA0000110",
+                    "DESCRIPCIÓN": "SOPORTE DETECTOR CARRO 110X40X2",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "961023000551",
+                    "DESCRIPCIÓN": "INDUCTIVO \"OMRON\" E2B-M12KS04-M1-B1",
+                    "PART NAME": "PROXIMITY SWITCH",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "C00-9567",
+                    "DESCRIPCIÓN": "CORREA DENT. CONTIN. HTD CXA \n624-8M-30",
+                    "PART NAME": "TIMING BELT CONTINEN. HTD CXA \n624-8M-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "S00260",
+                    "DESCRIPCIÓN": "POLEA POGGI PL 44 8M 30-4F",
+                    "PART NAME": "PULLEY \"POGGI\" PL 44 8M 30-4F",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "S00262",
+                    "DESCRIPCIÓN": "POLEA POGGI PL 36 8M 30-3F",
+                    "PART NAME": "PULLEY \"POGGI\" PL 36 8M 30-3F",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "S00263",
+                    "DESCRIPCIÓN": "TAPER-LOCK POGGI 1615-30 con chavetero",
+                    "PART NAME": "Tapper-lock \"POGGI\" 1615-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "S00261",
+                    "DESCRIPCIÓN": "TAPER-LOCK POGGI 2012-30 con chavetero",
+                    "PART NAME": "Tapper-lock \"POGGI\" 2012-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "D01861",
+                    "DESCRIPCIÓN": "Esparrago \"ANSI-B18.3\" 3/8\"x5/8\"",
+                    "PART NAME": "SCREW \"ANSI-B18.3\" 3/8\"x5/8\"",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "D01863",
+                    "DESCRIPCIÓN": "Esparrago \"ANSI-B18.3\" 7/16\"x7/8\"",
+                    "PART NAME": "SCREW \"ANSI-B18.3\" 7/16\"x7/8\"",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "D00134",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x55 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "D00469",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x40 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 933 M10 x40 ZINC 8.8",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "D00742",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 \nZINCADO",
+                    "PART NAME": "EXAGONAL NUT DIN 934 M10",
+                    "CTD. / QTY.": "5"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "D00810",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø10 PAVONADO",
+                    "PART NAME": "AET WASHER Ø10",
+                    "CTD. / QTY.": "9"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "D00819",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "D00868",
+                    "DESCRIPCIÓN": "ARANDELA DIN 6340 Ø10 ZINCADO ST",
+                    "PART NAME": "WASHER DIN 6340 10X28X4",
+                    "CTD. / QTY.": "5"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "D00931",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 471 E-30",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "D00967",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 472 I-55",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "27",
+                    "Nº PIEZA / PART NUMBER": "D01069",
+                    "DESCRIPCIÓN": "ESPARRAGO DIN 914 M6 x10  12.9",
+                    "PART NAME": "COILED BAR DIN 914 M6X10",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "28",
+                    "Nº PIEZA / PART NUMBER": "D01229",
+                    "DESCRIPCIÓN": "CHAVETA DIN 6885 A 8 x7 x35",
+                    "PART NAME": "COTTER DIN-6885 8x7x35",
+                    "CTD. / QTY.": "3"
+                },
+                {
+                    "POS.": "29",
+                    "Nº PIEZA / PART NUMBER": "D01247",
+                    "DESCRIPCIÓN": "CHAVETA DIN 6885 A 8 x7 x50",
+                    "PART NAME": "PARALLEL COTTER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "30",
+                    "Nº PIEZA / PART NUMBER": "D01403",
+                    "DESCRIPCIÓN": "RODAMIENTO 6006 2RS",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "31",
+                    "Nº PIEZA / PART NUMBER": "E00023",
+                    "DESCRIPCIÓN": "ADAPTADOR ROSCA M25 PG16",
+                    "PART NAME": "PIPE FITTING REDUCER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "32",
+                    "Nº PIEZA / PART NUMBER": "E00026",
+                    "DESCRIPCIÓN": "PRENSAESTOPA NORMANYL PG-16",
+                    "PART NAME": "CABLE GLAND",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "33",
+                    "Nº PIEZA / PART NUMBER": "E00030",
+                    "DESCRIPCIÓN": "CONEC. C/CABLE Y92E-P1D3V 5mts",
+                    "PART NAME": "CONNECTOR WITH CABLE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "34",
+                    "Nº PIEZA / PART NUMBER": "0921013000650",
+                    "DESCRIPCIÓN": "MOTOR* 0.75CV.B5 BONFI.  4P.",
+                    "PART NAME": "MOTOR",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "35",
+                    "Nº PIEZA / PART NUMBER": "E00959",
+                    "DESCRIPCIÓN": "REDUCTOR W63FC R.1:15 PAM GR80-B5  \nPOS.BRIDA \"D\"",
+                    "PART NAME": "GEAR W63FC R.1:15 PAM GR80-B5",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "36",
+                    "Nº PIEZA / PART NUMBER": "D00809",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø8 PAVONADO",
+                    "PART NAME": "AET WASHER FOR Ø8",
+                    "CTD. / QTY.": "3"
+                },
+                {
+                    "POS.": "37",
+                    "Nº PIEZA / PART NUMBER": "D00113",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x25 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "7"
+                },
+                {
+                    "POS.": "38",
+                    "Nº PIEZA / PART NUMBER": "D00086",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "39",
+                    "Nº PIEZA / PART NUMBER": "D00807",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø6 PAVONADO",
+                    "PART NAME": "AET WASHER Ø6",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "40",
+                    "Nº PIEZA / PART NUMBER": "D00829",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø6 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "41",
+                    "Nº PIEZA / PART NUMBER": "D00805",
+                    "DESCRIPCIÓN": "ARANDELA AET M5",
+                    "PART NAME": "WASHER AET M5",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "42",
+                    "Nº PIEZA / PART NUMBER": "D00827",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø5 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "43",
+                    "Nº PIEZA / PART NUMBER": "D00245",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x16 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "44",
+                    "Nº PIEZA / PART NUMBER": "D00475",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x60 ZINCADO 8.8",
+                    "PART NAME": "EXAGONAL SCCREW",
+                    "CTD. / QTY.": "1"
+                }
+            ],
+            "table_page_num": 15
+        },
+        {
+            "drawing_page_num": 16,
+            "pdf_page_width": 595.2,
+            "pdf_page_height": 841.92,
+            "image_path": "imagenes/documento_ejemplo/extracted_drawing_p16.png",
+            "pos_locations": {
+                "18": [
+                    [
+                        78.48,
+                        269.53,
+                        87.41,
+                        280.0
+                    ],
+                    [
+                        182.64,
+                        160.81,
+                        191.57,
+                        171.28
+                    ]
+                ],
+                "12": [
+                    [
+                        95.52,
+                        269.53,
+                        104.21,
+                        280.0
+                    ]
+                ],
+                "8": [
+                    [
+                        185.04,
+                        224.41,
+                        189.41,
+                        234.88
+                    ]
+                ],
+                "25": [
+                    [
+                        508.32,
+                        345.85,
+                        517.01,
+                        356.32
+                    ]
+                ],
+                "26": [
+                    [
+                        499.2,
+                        317.29,
+                        507.89,
+                        327.75
+                    ]
+                ],
+                "53": [
+                    [
+                        67.44,
+                        505.45,
+                        76.37,
+                        515.92
+                    ]
+                ],
+                "5": [
+                    [
+                        300.72,
+                        453.61,
+                        305.09,
+                        464.08
+                    ],
+                    [
+                        300.72,
+                        500.41,
+                        305.09,
+                        510.88
+                    ]
+                ],
+                "17": [
+                    [
+                        314.88,
+                        471.13,
+                        323.81,
+                        481.6
+                    ],
+                    [
+                        310.08,
+                        521.53,
+                        319.01,
+                        532.0
+                    ]
+                ],
+                "20": [
+                    [
+                        289.44,
+                        541.93,
+                        298.13,
+                        552.4
+                    ]
+                ],
+                "22": [
+                    [
+                        289.44,
+                        577.21,
+                        298.13,
+                        587.68
+                    ]
+                ],
+                "21": [
+                    [
+                        289.44,
+                        613.45,
+                        298.13,
+                        623.92
+                    ]
+                ],
+                "3": [
+                    [
+                        363.36,
+                        597.13,
+                        367.73,
+                        607.6
+                    ]
+                ],
+                "9": [
+                    [
+                        429.84,
+                        548.65,
+                        434.21,
+                        559.12
+                    ]
+                ],
+                "27": [
+                    [
+                        518.4,
+                        517.45,
+                        527.33,
+                        527.92
+                    ]
+                ],
+                "14": [
+                    [
+                        444.48,
+                        675.13,
+                        453.17,
+                        685.6
+                    ]
+                ],
+                "11": [
+                    [
+                        444.48,
+                        691.93,
+                        453.17,
+                        702.4
+                    ]
+                ],
+                "6": [
+                    [
+                        190.08,
+                        610.57,
+                        194.45,
+                        621.04
+                    ]
+                ],
+                "7": [
+                    [
+                        195.12,
+                        646.33,
+                        199.49,
+                        656.8
+                    ]
+                ],
+                "4": [
+                    [
+                        45.84,
+                        748.09,
+                        50.21,
+                        758.56
+                    ]
+                ],
+                "15": [
+                    [
+                        98.16,
+                        780.01,
+                        106.85,
+                        790.48
+                    ]
+                ],
+                "2": [
+                    [
+                        352.32,
+                        723.61,
+                        356.69,
+                        734.08
+                    ]
+                ],
+                "16": [
+                    [
+                        318.96,
+                        623.77,
+                        327.65,
+                        634.24
+                    ],
+                    [
+                        291.11,
+                        822.84,
+                        303.34,
+                        837.57
+                    ]
+                ],
+                "10": [
+                    [
+                        318.96,
+                        606.73,
+                        327.65,
+                        617.2
+                    ]
+                ],
+                "65": [
+                    [
+                        318.24,
+                        412.57,
+                        326.93,
+                        423.04
+                    ]
+                ],
+                "63": [
+                    [
+                        283.68,
+                        412.57,
+                        292.37,
+                        423.04
+                    ]
+                ],
+                "62": [
+                    [
+                        242.88,
+                        416.17,
+                        251.57,
+                        426.64
+                    ]
+                ],
+                "61": [
+                    [
+                        181.68,
+                        190.81,
+                        190.61,
+                        201.28
+                    ]
+                ],
+                "60": [
+                    [
+                        181.68,
+                        138.97,
+                        190.61,
+                        149.44
+                    ]
+                ],
+                "28": [
+                    [
+                        457.92,
+                        533.29,
+                        466.61,
+                        543.76
+                    ]
+                ],
+                "23": [
+                    [
+                        497.04,
+                        280.57,
+                        505.73,
+                        291.04
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "0503CA0000060",
+                    "DESCRIPCIÓN": "TUBO CABLES DETECTOR CA9S",
+                    "PART NAME": "TUBE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0504CA0000020",
+                    "DESCRIPCIÓN": "ESPARRAGO TENSOR CON TUERCA L=140",
+                    "PART NAME": "STUD",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0504CA00P0020",
+                    "DESCRIPCIÓN": "PLACA SOPORTE MOTOR COMPLETA",
+                    "PART NAME": "PLATE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0629CA00N0080",
+                    "DESCRIPCIÓN": "RUEDA DETECTOR CARRO D=60 L=20",
+                    "PART NAME": "DETECTOR WHEEL",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "335-100014",
+                    "DESCRIPCIÓN": "EJE MOTRIZ DE LA CA9 D=30 L=229",
+                    "PART NAME": "SHAFT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0632CA0000040",
+                    "DESCRIPCIÓN": "EJE CONDUCIDO DE LA CA9 D=30 L=215",
+                    "PART NAME": "SHAFT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0632PSE0N0040",
+                    "DESCRIPCIÓN": "ARAND. FIJACION DE EJES Ý=40x6 Ý=11",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0652CA0000110",
+                    "DESCRIPCIÓN": "SOPORTE DETECTOR CARRO 110X40X2",
+                    "PART NAME": "HOLDER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0910012000300",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø5 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0910012000400",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø6 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0910012000700",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø10 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "6"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0910022000400",
+                    "DESCRIPCIÓN": "ARANDELA DIN 127 Ø8 ZINCADO",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0911052004500",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "0911052005900",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x12 ZINCADO 8.8",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "0911053003000",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x16 INOX. 8.8",
+                    "PART NAME": "SCREW DIN 912 M5 x16 STAINLESS 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0911090001100",
+                    "DESCRIPCIÓN": "GRANI M6 x 10 DIN 914",
+                    "PART NAME": "CONE POINT SET SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "0913012000600",
+                    "DESCRIPCIÓN": "TUERCA M-10 ZINC",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "9"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0916012001800",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 471 E-30",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "0916022001300",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 472 I-55",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "0920014002500",
+                    "DESCRIPCIÓN": "RODAMIENTO 6006 2RS",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "0921013000650",
+                    "DESCRIPCIÓN": "MOTOR* 0.75CV.B5 BONFI.  4P.",
+                    "PART NAME": "MOTOR",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "0953054000500",
+                    "DESCRIPCIÓN": "PRENSAESTOPA NORMANYL PG-16",
+                    "PART NAME": "CABLE GLAND",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "0953063001040",
+                    "DESCRIPCIÓN": "ADAPTADOR ROSCA M25 PG16",
+                    "PART NAME": "PIPE FITTING REDUCER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "27",
+                    "Nº PIEZA / PART NUMBER": "0955064001700",
+                    "DESCRIPCIÓN": "CONEC. C/CABLE Y92E-P1D3V 5mts",
+                    "PART NAME": "CONNECTOR WITH CABLE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "28",
+                    "Nº PIEZA / PART NUMBER": "0961023000551",
+                    "DESCRIPCIÓN": "INDUCTIVO \"OMRON\" E2B-M12KS04-M1-B1",
+                    "PART NAME": "PROXIMITY SWITCH",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "53",
+                    "Nº PIEZA / PART NUMBER": "0921034500300",
+                    "DESCRIPCIÓN": "REDUCTOR W63FC R.1:30 PAM GR80-B5  \nPOS.BRIDA \"D\"",
+                    "PART NAME": "",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "60",
+                    "Nº PIEZA / PART NUMBER": "CD0-0031",
+                    "DESCRIPCIÓN": "TUERCA AUTOBLOC. DIN 985 M10 \nZINCADO",
+                    "PART NAME": "SECURITY EXAGONAL NUT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "61",
+                    "Nº PIEZA / PART NUMBER": "0911089002600",
+                    "DESCRIPCIÓN": "ESPARRAGO DIN 913 M10 x60",
+                    "PART NAME": "CONI POINT SET SCREW",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "62",
+                    "Nº PIEZA / PART NUMBER": "00C-1407",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "63",
+                    "Nº PIEZA / PART NUMBER": "CD0-0200",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø10 PAVONADO",
+                    "PART NAME": "AET WASHER Ø10",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "65",
+                    "Nº PIEZA / PART NUMBER": "00C-4434",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x30 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 933 M10X30",
+                    "CTD. / QTY.": "4"
+                }
+            ],
+            "table_page_num": 17
+        }
+    ]
+}

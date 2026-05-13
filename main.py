@@ -14,10 +14,11 @@ shutil.rmtree = lambda p, **kw: _rmtree(p, onerror=lambda *a: None, **kw)
 # --- Configuracion ---
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_PDF = os.path.join(BASE_DIR, "documento_ejemplo.pdf")
+PDFS_DIR = os.path.join(BASE_DIR, "documentos")
 OUTPUT_DIR = os.path.join(BASE_DIR, "imagenes")
 OUTPUT_BASE = "extracted_drawing"
 DPI = 150
+CATALOGS_JSON = os.path.join(OUTPUT_DIR, "catalogs.json")
 
 # --- Funciones ---
 
@@ -96,7 +97,7 @@ def ask_pairs_interactive(doc):
     return pairs
 
 
-def extract_drawing(page, page_num, output_dir, base_name, dpi):
+def extract_drawing(page, page_num, output_dir, base_name, dpi, catalog_id):
     section = {}
     section["drawing_page_num"] = page_num
     section["pdf_page_width"] = round(page.rect.width, 2)
@@ -106,7 +107,7 @@ def extract_drawing(page, page_num, output_dir, base_name, dpi):
     path = os.path.join(output_dir, filename)
     pix = page.get_pixmap(dpi=dpi)
     pix.save(path)
-    section["image_path"] = f"imagenes/{filename}"
+    section["image_path"] = f"imagenes/{catalog_id}/{filename}"
     print(f"    Imagen: {path}")
 
     words = page.get_text("words")
@@ -196,7 +197,24 @@ def extract_table(pdf_path, page_num):
     return _parse_camelot_tables(tables)
 
 
-def process(pdf_path, pairs, output_dir, base_name, dpi, dry_run=False):
+def update_catalogs_json(catalog_id, pdf_filename):
+    catalogs = {"catalogs": []}
+    if os.path.exists(CATALOGS_JSON):
+        with open(CATALOGS_JSON, encoding="utf-8") as f:
+            catalogs = json.load(f)
+    existing = [c for c in catalogs["catalogs"] if c["id"] == catalog_id]
+    if not existing:
+        catalogs["catalogs"].append({
+            "id": catalog_id,
+            "name": catalog_id,
+            "file": pdf_filename
+        })
+        catalogs["catalogs"].sort(key=lambda c: c["id"])
+        with open(CATALOGS_JSON, "w", encoding="utf-8") as f:
+            json.dump(catalogs, f, indent=2, ensure_ascii=False)
+
+
+def process(pdf_path, pairs, output_dir, base_name, dpi, catalog_id, dry_run=False):
     os.makedirs(output_dir, exist_ok=True)
 
     doc = fitz.open(pdf_path)
@@ -216,7 +234,7 @@ def process(pdf_path, pairs, output_dir, base_name, dpi, dry_run=False):
         page = doc.load_page(drawing_idx)
 
         print("  [Dibujo]")
-        sec = extract_drawing(page, drawing_idx + 1, output_dir, base_name, dpi)
+        sec = extract_drawing(page, drawing_idx + 1, output_dir, base_name, dpi, catalog_id)
 
         print("  [Tabla]")
         sec["table_data"] = extract_table(pdf_path, table_num)
@@ -239,25 +257,72 @@ def process(pdf_path, pairs, output_dir, base_name, dpi, dry_run=False):
 
 # --- CLI ---
 
+def list_available_pdfs():
+    pdfs = []
+    if os.path.isdir(PDFS_DIR):
+        for f in sorted(os.listdir(PDFS_DIR)):
+            if f.lower().endswith(".pdf"):
+                pdfs.append(f)
+    return pdfs
+
+
+def choose_pdf_interactive():
+    pdfs = list_available_pdfs()
+    if not pdfs:
+        print("No hay PDFs en la carpeta 'documentos/'.")
+        alt = input("  Ruta manual (o Enter para salir): ").strip()
+        return alt if alt else None
+    print("\nPDFs disponibles en 'documentos/':")
+    for i, f in enumerate(pdfs, 1):
+        size = os.path.getsize(os.path.join(PDFS_DIR, f)) / (1024 * 1024)
+        print(f"  [{i}] {f} ({size:.0f} MB)")
+    print(f"  [0] Especificar otra ruta")
+    choice = input(f"\nElige (1-{len(pdfs)}, 0 manual): ").strip()
+    if choice == "0":
+        alt = input("  Ruta al PDF: ").strip()
+        return alt if alt else None
+    try:
+        idx = int(choice) - 1
+        if 0 <= idx < len(pdfs):
+            return os.path.join(PDFS_DIR, pdfs[idx])
+    except ValueError:
+        pass
+    return None
+
+
 def main():
-    parser = argparse.ArgumentParser(description="Extrae dibujos y tablas de un PDF")
-    parser.add_argument("--pdf", default=DEFAULT_PDF, help="Ruta al PDF")
+    parser = argparse.ArgumentParser(description="Extrae dibujos y tablas de PDFs tecnicos")
+    parser.add_argument("--pdf", help="Nombre del PDF en 'documentos/' (ej: manual_ca9.pdf)")
     parser.add_argument("--pairs", nargs="+", help="Pares dibujo,tabla (ej: 8,9 10,11)")
-    parser.add_argument("--dpi", type=int, default=DPI, help="Resolución de imágenes")
-    parser.add_argument("--dry-run", action="store_true", help="Mostrar qué se haría sin ejecutar")
-    parser.add_argument("--list", action="store_true", help="Listar páginas del PDF y salir")
-    parser.add_argument("--output", default=OUTPUT_DIR, help="Directorio de salida")
-    parser.add_argument("--base", default=OUTPUT_BASE, help="Nombre base archivos")
+    parser.add_argument("--dpi", type=int, default=DPI, help="Resolucion de imagenes")
+    parser.add_argument("--dry-run", action="store_true", help="Mostrar que se haria sin ejecutar")
+    parser.add_argument("--list", action="store_true", help="Listar paginas del PDF y salir")
     args = parser.parse_args()
 
-    pdf_path = args.pdf
-    if not os.path.exists(pdf_path):
-        print(f"ERROR: No se encuentra el PDF: {pdf_path}")
-        alt = input("  Ruta alternativa (o Enter para salir): ").strip()
-        if alt and os.path.exists(alt):
-            pdf_path = alt
+    # ── Localizar PDF ──
+    pdf_path = None
+    pdf_filename = None
+    if args.pdf:
+        # Buscar en documentos/
+        candidate = os.path.join(PDFS_DIR, args.pdf)
+        if os.path.exists(candidate):
+            pdf_path = candidate
+            pdf_filename = args.pdf
         else:
+            print(f"ERROR: No se encuentra '{args.pdf}' en la carpeta 'documentos/'.")
             sys.exit(1)
+    else:
+        chosen = choose_pdf_interactive()
+        if not chosen or not os.path.exists(chosen):
+            print("Cancelado.")
+            return
+        pdf_path = chosen
+        pdf_filename = os.path.basename(chosen)
+
+    # ── Directorio de salida por catalogo ──
+    catalog_id = os.path.splitext(pdf_filename)[0]
+    catalog_output_dir = os.path.join(OUTPUT_DIR, catalog_id)
+    os.makedirs(catalog_output_dir, exist_ok=True)
 
     print(f"\n--- PDF: {pdf_path}")
     doc = fitz.open(pdf_path)
@@ -282,26 +347,28 @@ def main():
         print("  No hay pares que procesar.")
         return
 
-    # ── Resumen y confirmación ──
+    # ── Resumen y confirmacion ──
     print(f"\n-- Resumen --")
+    print(f"  Catalogo:  {catalog_id}")
     print(f"  PDF:       {pdf_path}")
-    print(f"  Imágenes:  {args.output}")
+    print(f"  Imagenes:  {catalog_output_dir}")
     print(f"  DPI:       {args.dpi}")
     print(f"  Secciones: {len(pairs)}")
     for i, (d, t) in enumerate(pairs):
         print(f"    {i+1}. Dibujo P.{d+1} -> Tabla P.{t}")
 
     if args.dry_run:
-        print("\n  [DRY-RUN] No se ejecutará ninguna acción real.")
-        process(pdf_path, pairs, args.output, args.base, args.dpi, dry_run=True)
+        print("\n  [DRY-RUN] No se ejecutara ninguna accion real.")
+        process(pdf_path, pairs, catalog_output_dir, OUTPUT_BASE, args.dpi, catalog_id, dry_run=True)
         return
 
-    confirm = input("\n¿Proceder? (s/N): ").strip().lower()
+    confirm = input("\nProceder? (s/N): ").strip().lower()
     if confirm != "s":
         print("  Cancelado.")
         return
 
-    process(pdf_path, pairs, args.output, args.base, args.dpi)
+    process(pdf_path, pairs, catalog_output_dir, OUTPUT_BASE, args.dpi, catalog_id)
+    update_catalogs_json(catalog_id, pdf_filename)
 
 
 if __name__ == "__main__":

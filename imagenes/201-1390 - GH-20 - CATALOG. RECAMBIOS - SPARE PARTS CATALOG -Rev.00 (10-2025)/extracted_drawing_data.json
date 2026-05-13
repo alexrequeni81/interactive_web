@@ -1,0 +1,611 @@
+{
+    "sections": [
+        {
+            "drawing_page_num": 6,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/201-1390 - GH-20 - CATALOG. RECAMBIOS - SPARE PARTS CATALOG -Rev.00 (10-2025)/extracted_drawing_p6.png",
+            "pos_locations": {
+                "3": [
+                    [
+                        430.32,
+                        220.44,
+                        434.97,
+                        229.51
+                    ]
+                ],
+                "1": [
+                    [
+                        470.28,
+                        330.0,
+                        474.93,
+                        339.07
+                    ]
+                ],
+                "6": [
+                    [
+                        529.68,
+                        474.96,
+                        534.33,
+                        484.03
+                    ],
+                    [
+                        562.7,
+                        795.74,
+                        568.81,
+                        808.17
+                    ]
+                ],
+                "5": [
+                    [
+                        285.36,
+                        92.76,
+                        290.01,
+                        101.83
+                    ]
+                ],
+                "4": [
+                    [
+                        444.12,
+                        271.8,
+                        448.77,
+                        280.87
+                    ]
+                ],
+                "2": [
+                    [
+                        237.36,
+                        680.88,
+                        242.01,
+                        689.95
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "201-1301",
+                    "DESCRIPCIÓN": "CONJ. CHASIS Y TABLERO GH-20",
+                    "PART NAME": "CHASSIS & BOARD ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "201-1303M",
+                    "DESCRIPCIÓN": "CONJ. MOTOR GH-20",
+                    "PART NAME": "MOTOR ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "201-1304-01",
+                    "DESCRIPCIÓN": "CONJ. CABEZAL GH-20",
+                    "PART NAME": "HEAD ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "201-1307",
+                    "DESCRIPCIÓN": "CONJ. PALANCA",
+                    "PART NAME": "LEVER ASSEMBLY",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "201-1308",
+                    "DESCRIPCIÓN": "PORTA FLEJES",
+                    "PART NAME": "STRAPPING DISPENSER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "152-197E",
+                    "DESCRIPCIÓN": "GH-20 CUADRO ELECTRICO (MY26) Y \nCOMPONENTES",
+                    "PART NAME": "GH-20 ELECTRICAL PANEL (MY26) AND \nCOMPONENTS",
+                    "CTD. / QTY.": "1"
+                }
+            ],
+            "table_page_num": 7
+        },
+        {
+            "drawing_page_num": 8,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/201-1390 - GH-20 - CATALOG. RECAMBIOS - SPARE PARTS CATALOG -Rev.00 (10-2025)/extracted_drawing_p8.png",
+            "pos_locations": {
+                "3": [
+                    [
+                        432.84,
+                        225.36,
+                        437.49,
+                        234.43
+                    ]
+                ],
+                "1": [
+                    [
+                        472.8,
+                        334.92,
+                        477.45,
+                        343.99
+                    ]
+                ],
+                "6": [
+                    [
+                        550.56,
+                        470.28,
+                        555.21,
+                        479.35
+                    ]
+                ],
+                "5": [
+                    [
+                        287.76,
+                        97.68,
+                        292.41,
+                        106.75
+                    ]
+                ],
+                "4": [
+                    [
+                        446.52,
+                        276.72,
+                        451.17,
+                        285.79
+                    ]
+                ],
+                "2": [
+                    [
+                        228.0,
+                        705.6,
+                        232.65,
+                        714.67
+                    ]
+                ],
+                "8": [
+                    [
+                        562.7,
+                        795.74,
+                        568.81,
+                        808.17
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "201-1301",
+                    "DESCRIPCIÓN": "CONJ. CHASIS Y TABLERO GH-20",
+                    "PART NAME": "CHASSIS & BOARD ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "201-1303T",
+                    "DESCRIPCIÓN": "CONJ. MOTOR GH-20",
+                    "PART NAME": "MOTOR ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "201-1304-01",
+                    "DESCRIPCIÓN": "CONJ. CABEZAL GH-20",
+                    "PART NAME": "HEAD ASSEMBLY GH-20",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "201-1307",
+                    "DESCRIPCIÓN": "CONJ. PALANCA",
+                    "PART NAME": "LEVER ASSEMBLY",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "201-1308",
+                    "DESCRIPCIÓN": "PORTA FLEJES",
+                    "PART NAME": "STRAPPING DISPENSER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "152-197E",
+                    "DESCRIPCIÓN": "GH-20 CUADRO ELECTRICO (MY26) Y \nCOMPONENTES",
+                    "PART NAME": "GH-20 ELECTRICAL PANEL (MY26) AND \nCOMPONENTS",
+                    "CTD. / QTY.": "1"
+                }
+            ],
+            "table_page_num": 9
+        },
+        {
+            "drawing_page_num": 10,
+            "pdf_page_width": 595.0,
+            "pdf_page_height": 842.0,
+            "image_path": "imagenes/201-1390 - GH-20 - CATALOG. RECAMBIOS - SPARE PARTS CATALOG -Rev.00 (10-2025)/extracted_drawing_p10.png",
+            "pos_locations": {
+                "1.1": [
+                    [
+                        26.04,
+                        56.92,
+                        42.36,
+                        68.56
+                    ]
+                ],
+                "19": [
+                    [
+                        519.24,
+                        393.24,
+                        528.57,
+                        402.31
+                    ],
+                    [
+                        81.6,
+                        561.72,
+                        90.93,
+                        570.79
+                    ]
+                ],
+                "5": [
+                    [
+                        82.56,
+                        273.96,
+                        87.21,
+                        283.03
+                    ]
+                ],
+                "11": [
+                    [
+                        387.84,
+                        285.6,
+                        397.17,
+                        294.67
+                    ]
+                ],
+                "3": [
+                    [
+                        478.32,
+                        432.36,
+                        482.97,
+                        441.43
+                    ]
+                ],
+                "18": [
+                    [
+                        490.32,
+                        658.32,
+                        499.65,
+                        667.39
+                    ]
+                ],
+                "1": [
+                    [
+                        425.4,
+                        560.64,
+                        430.05,
+                        569.71
+                    ]
+                ],
+                "2": [
+                    [
+                        84.48,
+                        502.56,
+                        89.13,
+                        511.63
+                    ]
+                ],
+                "7": [
+                    [
+                        207.72,
+                        316.8,
+                        212.37,
+                        325.87
+                    ]
+                ],
+                "10": [
+                    [
+                        152.4,
+                        209.28,
+                        161.73,
+                        218.35
+                    ],
+                    [
+                        556.61,
+                        795.74,
+                        568.85,
+                        808.17
+                    ]
+                ],
+                "9": [
+                    [
+                        348.6,
+                        155.28,
+                        353.25,
+                        164.35
+                    ]
+                ],
+                "8": [
+                    [
+                        99.36,
+                        678.6,
+                        104.01,
+                        687.67
+                    ]
+                ],
+                "22": [
+                    [
+                        97.08,
+                        632.52,
+                        106.41,
+                        641.59
+                    ]
+                ],
+                "15": [
+                    [
+                        97.08,
+                        594.84,
+                        106.41,
+                        603.91
+                    ]
+                ],
+                "24": [
+                    [
+                        348.72,
+                        689.52,
+                        358.05,
+                        698.59
+                    ]
+                ],
+                "23": [
+                    [
+                        348.72,
+                        510.84,
+                        358.05,
+                        519.91
+                    ]
+                ],
+                "16": [
+                    [
+                        214.68,
+                        569.16,
+                        224.01,
+                        578.23
+                    ]
+                ],
+                "4": [
+                    [
+                        94.92,
+                        374.28,
+                        99.57,
+                        383.35
+                    ]
+                ],
+                "17": [
+                    [
+                        72.0,
+                        408.72,
+                        81.33,
+                        417.79
+                    ]
+                ],
+                "14": [
+                    [
+                        222.72,
+                        335.52,
+                        232.05,
+                        344.59
+                    ]
+                ],
+                "21": [
+                    [
+                        187.44,
+                        148.32,
+                        196.77,
+                        157.39
+                    ]
+                ],
+                "20": [
+                    [
+                        344.88,
+                        421.68,
+                        354.21,
+                        430.75
+                    ]
+                ],
+                "13": [
+                    [
+                        371.52,
+                        420.96,
+                        380.85,
+                        430.03
+                    ]
+                ],
+                "6": [
+                    [
+                        296.52,
+                        377.04,
+                        301.17,
+                        386.11
+                    ]
+                ],
+                "12": [
+                    [
+                        402.72,
+                        306.0,
+                        412.05,
+                        315.07
+                    ]
+                ]
+            },
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "152-0112",
+                    "DESCRIPCIÓN": "TAPA FRONTAL (MY24)",
+                    "PART NAME": "FRONTAL PROTECTION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "152-0113",
+                    "DESCRIPCIÓN": "TAPA MOTOR LATERAL IZQUIERDO",
+                    "PART NAME": "LEFT SIDE PROTECTION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "152-0114",
+                    "DESCRIPCIÓN": "TAPA MOTOR LATERAL DERECHO",
+                    "PART NAME": "RIGHT SIDE PROTECTION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "152-0401",
+                    "DESCRIPCIÓN": "SOPORTE ACCESORIOS",
+                    "PART NAME": "ACCESORIES SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "152-1205",
+                    "DESCRIPCIÓN": "BARRA SOPORTE",
+                    "PART NAME": "SUPPORT BAR",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "152-1206",
+                    "DESCRIPCIÓN": "BARRA SOPORTE",
+                    "PART NAME": "SUPPORT BAR",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "152-1208",
+                    "DESCRIPCIÓN": "MORDAZA EN CRUZ",
+                    "PART NAME": "CLAMP",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "201-0131",
+                    "DESCRIPCIÓN": "CJTO. SOLDADURA CHASIS GH20 (V2)",
+                    "PART NAME": "WELDED CHASSIS",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "201-1201",
+                    "DESCRIPCIÓN": "TABLERO GRADUABLE",
+                    "PART NAME": "ADJUSTABLE BOARD",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "201-1207",
+                    "DESCRIPCIÓN": "TABLERO FIJO GH",
+                    "PART NAME": "FIXED PANEL GH",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "201-1214",
+                    "DESCRIPCIÓN": "SOPORTE TABLERO SOLDADO",
+                    "PART NAME": "WELDED PANEL SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "CD0-0257",
+                    "DESCRIPCIÓN": "TORNILLO DIN 7971 M4,8 x 16 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 7971 M4,8 x 16 ZINC 8.8",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "D00128",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x25 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 912 M10X25",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "D00130",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x35 ZINCADO 8.8",
+                    "PART NAME": "ALLEN SCREW DIN-912 M10x35",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "D00227",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M14 x90 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 912 M14 x90 ZINC 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "D00424",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M8 x16 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 933 M8 x16 ZINC 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "D00438",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M8 x35 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 933 M8X35",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "D00622",
+                    "DESCRIPCIÓN": "TORNILLO ULS (ISO7380) M4 x6 ZINCADO 8.8",
+                    "PART NAME": "SCREW ULS M4X6",
+                    "CTD. / QTY.": "6"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "D00643",
+                    "DESCRIPCIÓN": "TORNILLO ULS (ISO7380) M6 x10 ZINCADO 8.8",
+                    "PART NAME": "SCREW ULS M6X10",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "D00742",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 ZINCADO",
+                    "PART NAME": "EXAGONAL NUT DIN 934 M10",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "D01277",
+                    "DESCRIPCIÓN": "TORNILLO DIN 7991 M6 x25 INOX. 8.8",
+                    "PART NAME": "SCREW DIN 7991 M6 x25 STAINLESS 8.8",
+                    "CTD. / QTY.": "3"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "D01441",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M14 ZINCADO",
+                    "PART NAME": "NUT DIN 934 M14 ZINC",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "S00013",
+                    "DESCRIPCIÓN": "TOPE FINAL R-26 14",
+                    "PART NAME": "END TAP R-26 14",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "S00082",
+                    "DESCRIPCIÓN": "TOPE FINAL R-26 16",
+                    "PART NAME": "END TAP R-26 16",
+                    "CTD. / QTY.": "1"
+                }
+            ],
+            "table_page_num": 11
+        }
+    ]
+}

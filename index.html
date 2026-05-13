@@ -181,6 +181,21 @@
         }
 
         /* Estilos para Navegación de Sección */
+        #catalog-nav {
+            display: flex;
+            align-items: center;
+            padding: 8px 5px;
+            margin: 5px;
+            border: 1px solid #eee;
+            background-color: #e8e8e8;
+            gap: 8px;
+        }
+        #catalog-nav select {
+            flex: 1;
+            padding: 4px;
+            font-size: 0.9em;
+        }
+
         #section-nav {
             display: flex;
             justify-content: center;
@@ -220,6 +235,14 @@
             <!-- Contenedor para Paneles Derecho y Carrito (Apilados Verticalmente) -->
             <div style="display: flex; flex-direction: column; flex: 3; min-width: 0;"> 
                 
+                 <!-- Selector de Catálogo -->
+                 <div id="catalog-nav">
+                     <label for="catalog-select">Catálogo:</label>
+                     <select id="catalog-select">
+                         <option value="">Cargando...</option>
+                     </select>
+                 </div>
+
                  <!-- Navegación de Sección -->
                  <div id="section-nav">
                     <button id="prev-section-btn" title="Sección Anterior">&lt;&lt;</button>
@@ -258,7 +281,8 @@
         let pdfPageDims = { width: 0, height: 0 };
         let currentImagePath = '';
         // --------------------------
-        const jsonPath = 'imagenes/extracted_drawing_data.json'; // Nuevo nombre JSON
+        let catalogs = [];
+        let currentCatalogId = null;
         const imagenContainer = document.getElementById('panel-izquierdo');
         const imagen = document.getElementById('imagen-catalogo');
         const tablaContainer = document.getElementById('tabla-container');
@@ -459,42 +483,91 @@
         // --- Nueva Lógica de Carga y Selección de Sección --- 
 
         async function loadInitialData() {
-            console.log("Cargando datos iniciales...");
+            console.log("Cargando lista de catálogos...");
+            const selector = document.getElementById('catalog-select');
+            try {
+                const response = await fetch('imagenes/catalogs.json');
+                if (!response.ok) {
+                    throw new Error(`Error al cargar catalogs.json (${response.status})`);
+                }
+                const data = await response.json();
+                catalogs = data.catalogs || [];
+
+                selector.innerHTML = '';
+
+                if (catalogs.length === 0) {
+                    const option = document.createElement('option');
+                    option.textContent = 'No hay catálogos disponibles';
+                    option.disabled = true;
+                    option.selected = true;
+                    selector.appendChild(option);
+                    tablaContainer.innerHTML = '<p>No hay catálogos disponibles. Procesa al menos un PDF con el script de extracción.</p>';
+                    return;
+                }
+
+                catalogs.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat.id;
+                    option.textContent = cat.name;
+                    selector.appendChild(option);
+                });
+
+                selector.addEventListener('change', (e) => {
+                    if (e.target.value) {
+                        switchCatalog(e.target.value);
+                    }
+                });
+
+                await switchCatalog(catalogs[0].id);
+
+            } catch (error) {
+                console.error('Error fatal al cargar catálogos:', error);
+                selector.innerHTML = '';
+                const option = document.createElement('option');
+                option.textContent = 'Error al cargar';
+                option.disabled = true;
+                option.selected = true;
+                selector.appendChild(option);
+                tablaContainer.innerHTML = `<p style="color: red;">Error al cargar catálogos: ${error.message}.</p>`;
+            }
+        }
+
+        async function switchCatalog(catalogId) {
+            const catalog = catalogs.find(c => c.id === catalogId);
+            if (!catalog) return;
+
+            currentCatalogId = catalogId;
+            const jsonPath = `imagenes/${catalogId}/extracted_drawing_data.json`;
+
+            allSections = [];
+            currentSectionIndex = -1;
+            posLocations = {};
+            tableData = [];
+
             try {
                 const response = await fetch(jsonPath);
                 if (!response.ok) {
-                    throw new Error(`Error al cargar el JSON (${response.status}): ${response.statusText}`);
+                    throw new Error(`Error al cargar ${jsonPath} (${response.status})`);
                 }
                 const jsonData = await response.json();
 
                 if (!jsonData || !jsonData.sections || jsonData.sections.length === 0) {
-                     throw new Error("El archivo JSON no contiene secciones válidas.");
+                    throw new Error("El archivo JSON no contiene secciones válidas.");
                 }
-                
+
                 allSections = jsonData.sections;
-                console.log(`Se encontraron ${allSections.length} secciones.`);
+                console.log(`Catálogo "${catalog.name}": ${allSections.length} secciones.`);
 
-                // --- Configurar botones de navegación --- 
-                prevBtn.addEventListener('click', () => {
-                    if (currentSectionIndex > 0) {
-                         loadSection(currentSectionIndex - 1);
-                     }
-                 });
-                nextBtn.addEventListener('click', () => {
-                    if (currentSectionIndex < allSections.length - 1) {
-                         loadSection(currentSectionIndex + 1);
-                     }
-                 });
-                // -------------------------------------
+                prevBtn.disabled = false;
+                nextBtn.disabled = false;
 
-                // Cargar la primera sección por defecto
                 loadSection(0);
-                updateCartDisplay();
 
             } catch (error) {
-                console.error('Error fatal al cargar datos iniciales:', error);
-                tablaContainer.innerHTML = `<p style="color: red;">Error al cargar datos: ${error.message}. Revisa la consola y el archivo JSON.</p>`;
-                sectionSelector.innerHTML = '<option>Error al cargar</option>';
+                console.error(`Error al cargar catálogo "${catalog.name}":`, error);
+                tablaContainer.innerHTML = `<p style="color: red;">Error al cargar datos del catálogo: ${error.message}</p>`;
+                imagen.src = '';
+                sectionInfoSpan.textContent = 'Sección -/-';
             }
         }
         
@@ -916,11 +989,18 @@
 
         // --- Inicialización Refactorizada --- 
         async function initApp() {
-            // await cargarDatosYTabla(); // Reemplazado por loadInitialData
-            await loadInitialData(); // Carga JSON, pobla selector, carga sección 0
-            
-            // Los listeners de hover/pan/zoom se añaden una vez o dentro de loadSection si dependen de datos
-            // El ajuste inicial de imagen ahora se maneja dentro de loadSection
+            prevBtn.addEventListener('click', () => {
+                if (currentSectionIndex > 0) {
+                    loadSection(currentSectionIndex - 1);
+                }
+            });
+            nextBtn.addEventListener('click', () => {
+                if (currentSectionIndex < allSections.length - 1) {
+                    loadSection(currentSectionIndex + 1);
+                }
+            });
+
+            await loadInitialData();
         }
 
         window.addEventListener('resize', ajustarImagenInicial);
