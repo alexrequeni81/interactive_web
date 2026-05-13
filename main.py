@@ -122,24 +122,42 @@ def extract_drawing(page, page_num, output_dir, base_name, dpi):
     return section
 
 
+COLUMN_ALIASES = {
+    "POS.": "POS.", "POS": "POS.", "ITEM": "POS.",
+    "Nº PIEZA / PART NUMBER": "Nº PIEZA / PART NUMBER",
+    "PIEZA / PART": "Nº PIEZA / PART NUMBER",
+    "DESCRIPCIÓN": "DESCRIPCIÓN",
+    "PART NAME": "PART NAME", "NAME": "PART NAME",
+    "CTD. / QTY.": "CTD. / QTY.", "CTD.": "CTD. / QTY.",
+    "QTY.": "CTD. / QTY.", "QTTY": "CTD. / QTY.",
+}
+
+
+def _canonical(headers):
+    """Normaliza headers al esquema comun. Retorna None si no detecta columna POS."""
+    canon = []
+    has_pos = False
+    for h in headers:
+        key = str(h).replace("\n", " ").strip()
+        mapped = COLUMN_ALIASES.get(key, key)
+        canon.append(mapped)
+        if mapped == "POS.":
+            has_pos = True
+    return canon if has_pos else None
+
+
 def _parse_camelot_tables(tables, label=""):
-    """Intenta extraer filas con POS de tablas Camelot. Retorna (rows, ok)."""
     rows = []
     for t in tables:
         df = t.df
         if len(df) < 2:
             continue
-        headers = df.iloc[1].tolist()
-        if "POS." not in headers and "POS" not in headers:
+        canon = _canonical(df.iloc[1].tolist())
+        if canon is None:
             continue
-        df.columns = df.iloc[1]
+        df.columns = canon
         df = df[2:].reset_index(drop=True)
-        df.columns = [
-            str(c).replace("\n", " ").strip() if c else f"col_{j}"
-            for j, c in enumerate(df.columns)
-        ]
-        pos_col = "POS." if "POS." in df.columns else "POS"
-        df[pos_col] = df[pos_col].apply(normalize_pos)
+        df["POS."] = df["POS."].apply(normalize_pos)
         records = df.to_dict(orient="records")
         rows.extend(records)
         print(f"    {label}Filas extraidas: {len(records)}")
@@ -147,26 +165,26 @@ def _parse_camelot_tables(tables, label=""):
 
 
 def extract_table(pdf_path, page_num):
-    flavors = ["lattice", "stream"]
+    try:
+        tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor="lattice")
+        print(f"    Tablas encontradas: {tables.n}")
+    except Exception as e:
+        print(f"    ERROR Camelot: {e}")
+        return []
 
-    for i, flavor in enumerate(flavors):
-        try:
-            tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor=flavor)
-            label = f"[{flavor}] " if len(flavors) > 1 else ""
-            print(f"    {label}Tablas encontradas: {tables.n}")
-        except Exception as e:
-            print(f"    {label}ERROR Camelot: {e}")
-            continue
+    rows = _parse_camelot_tables(tables)
+    if rows:
+        return rows
 
-        rows = _parse_camelot_tables(tables, label=label)
-        if rows:
-            if i > 0:
-                print(f"    -> stream recupero {len(rows)} filas con POS")
-            return rows
-        if i == 0 and len(flavors) > 1:
-            print(f"    Sin POS con lattice, probando stream...")
+    # Fallback: probar con stream por si la tabla no tiene bordes
+    try:
+        tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor="stream")
+        print(f"    Sin POS con lattice, stream encuentra: {tables.n} tablas")
+    except Exception as e:
+        print(f"    ERROR Camelot stream: {e}")
+        return []
 
-    return []
+    return _parse_camelot_tables(tables)
 
 
 def process(pdf_path, pairs, output_dir, base_name, dpi, dry_run=False):

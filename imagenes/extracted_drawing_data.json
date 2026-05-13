@@ -1299,7 +1299,267 @@
                     ]
                 ]
             },
-            "table_data": [],
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "0682CA0000020",
+                    "DESCRIPCI(cid:207)N": "SOPORTE DE CORREDERA IZQUIERDO",
+                    "PART NAME": "LEFT SUPPORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000010",
+                    "DESCRIPCI(cid:207)N": "DISTANCIADOR CORREDERAS CA8",
+                    "PART NAME": "SPACER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "0682CA0000010",
+                    "DESCRIPCI(cid:207)N": "SOPORTE DE CORREDERA DERECHO",
+                    "PART NAME": "RIGHT SUPPOORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "0916012001900",
+                    "DESCRIPCI(cid:207)N": "ANILLO SEGURIDAD DIN 471 E-32",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0649CA00N0020",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. DERECHO INFERIOR 25x25x3x420",
+                    "PART NAME": "RIGHT ANGLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0649CA00N0030",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. IZQDO. INFERIOR 25x25x3x420",
+                    "PART NAME": "LEFT ANGLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0910057000500",
+                    "DESCRIPCI(cid:207)N": "ARANDELA DIN 6797-A (cid:145)8.2",
+                    "PART NAME": "TOOTHED WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000040",
+                    "DESCRIPCI(cid:207)N": "PIEZA UNION CORREDERAS DE CA9",
+                    "PART NAME": "SLIDING UNION",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000050",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. DCHO. SUPERIOR(2)",
+                    "PART NAME": "UPPER RIGHT SUPPORT 2",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000030",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. DCHO. SUPERIOR(1)",
+                    "PART NAME": "UPPER RIGHT SUPPORT 1",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000040",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. IZQDO SUPERIOR(1)",
+                    "PART NAME": "UPPER LEFT SUPPORT 1",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "0669CA0000060",
+                    "DESCRIPCI(cid:207)N": "SOP. ANG. IZQDO SUPERIOR(2)",
+                    "PART NAME": "UPPER LEFT SUPPORT 2",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000005",
+                    "DESCRIPCI(cid:207)N": "SOPORTE ROD. RODILLO DELANTERO",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "0690CA0000010",
+                    "DESCRIPCI(cid:207)N": "ESPONJA PARA MESA DE CARRO",
+                    "PART NAME": "FOAM",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "0510CA00N0010",
+                    "DESCRIPCI(cid:207)N": "RODILLO COMPLETO DE CORREDERA",
+                    "PART NAME": "ROLLER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "0668CA0000010",
+                    "DESCRIPCI(cid:207)N": "MESA SOPORTE DEL CARRO",
+                    "PART NAME": "TABLE SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "0911052004600",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M6 x16 ZINCADO 8.8",
+                    "PART NAME": "DIN 912 BOLT M6X16",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "0910012000400",
+                    "DESCRIPCI(cid:207)N": "ARANDELA DIN 125-B (cid:145)6 ZINCADO",
+                    "PART NAME": "PLAIN WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "0910022000300",
+                    "DESCRIPCI(cid:207)N": "ARANDELA DIN 127 (cid:145)6 ZINCADO",
+                    "PART NAME": "WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "0911052004800",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M6 x25 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "0913012000400",
+                    "DESCRIPCI(cid:207)N": "TUERCA HEXAGONAL DIN 934 M6 ZINCADO",
+                    "PART NAME": "HEXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "0661CA0000006",
+                    "DESCRIPCI(cid:207)N": "REGLETA SUJ. CUBIERTA MESA",
+                    "PART NAME": "SOCKET",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "0920014002800",
+                    "DESCRIPCI(cid:207)N": "RODAMIENTO 608 2RS",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "0911052004900",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M6 x30 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "0911087001800",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 7991 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 7991 M6 x12 ZINC 8.8",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "0911052004500",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "27",
+                    "Nº PIEZA / PART NUMBER": "0911052006000",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M8 x16 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "12"
+                },
+                {
+                    "POS.": "28",
+                    "Nº PIEZA / PART NUMBER": "0911052004400",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 912 M6 x10 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "29",
+                    "Nº PIEZA / PART NUMBER": "334-020104",
+                    "DESCRIPCI(cid:207)N": "ENCAJADOR INFERIOR CARRO CA10 C2C",
+                    "PART NAME": "LOWER PLATE CA-10 C2C",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "30",
+                    "Nº PIEZA / PART NUMBER": "0920015001350",
+                    "DESCRIPCI(cid:207)N": "RODAMIENTO L. STAR 0670-220-40",
+                    "PART NAME": "BALL BEARING L. STAR 0670-220-40",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "31",
+                    "Nº PIEZA / PART NUMBER": "00C-4415",
+                    "DESCRIPCI(cid:207)N": "TORNILLO DIN 933 M6 x20 ZINCADO 8.8",
+                    "PART NAME": "BOLT DIN 933 M6X20",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "32",
+                    "Nº PIEZA / PART NUMBER": "00C-4605",
+                    "DESCRIPCI(cid:207)N": "TUERCA HEXAGONAL DIN 934 M6 ZINCADO",
+                    "PART NAME": "EXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "33",
+                    "Nº PIEZA / PART NUMBER": "00C-9501",
+                    "DESCRIPCI(cid:207)N": "TUERCA AUTOBLOC. DIN 985 M6 ZINCADO",
+                    "PART NAME": "DIN-985 M6 EXAGONAL NUT",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "34",
+                    "Nº PIEZA / PART NUMBER": "504-020009",
+                    "DESCRIPCI(cid:207)N": "ESCUADRA SOPORTE PLACA DCHA.",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "35",
+                    "Nº PIEZA / PART NUMBER": "504-020012",
+                    "DESCRIPCI(cid:207)N": "ESCUADRA SOPORTE PLACA IZQ.",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "36",
+                    "Nº PIEZA / PART NUMBER": "504-060010",
+                    "DESCRIPCI(cid:207)N": "Placa encajadora",
+                    "PART NAME": "PLATE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "37",
+                    "Nº PIEZA / PART NUMBER": "00C-1404",
+                    "DESCRIPCI(cid:207)N": "ARANDELA DIN 125 (cid:145)6 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "4"
+                }
+            ],
             "table_page_num": 13
         },
         {
@@ -1757,7 +2017,316 @@
                     ]
                 ]
             },
-            "table_data": [],
+            "table_data": [
+                {
+                    "POS.": "1",
+                    "Nº PIEZA / PART NUMBER": "335-100012",
+                    "DESCRIPCIÓN": "MANIVELA ACCIONAMIENTO CARRO",
+                    "PART NAME": "CA-9 DRIVE CRANK",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "2",
+                    "Nº PIEZA / PART NUMBER": "335-100011",
+                    "DESCRIPCIÓN": "EJE CONDUCIDO DE LA CA9 D=30 L=215",
+                    "PART NAME": "DRIVE SHAFT OF CA-9",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "3",
+                    "Nº PIEZA / PART NUMBER": "335-100013",
+                    "DESCRIPCIÓN": "CIERRE MANIVELA",
+                    "PART NAME": "CRANK LOCK",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "4",
+                    "Nº PIEZA / PART NUMBER": "335-100014",
+                    "DESCRIPCIÓN": "EJE MOTRIZ DE LA CA9 D=30 L=229",
+                    "PART NAME": "DRIVING SHAFT FOR CA-9/10",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "5",
+                    "Nº PIEZA / PART NUMBER": "0503CA0000060",
+                    "DESCRIPCIÓN": "TUBO CABLES DETECTOR CA9S",
+                    "PART NAME": "TUBE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "6",
+                    "Nº PIEZA / PART NUMBER": "0504CA0000020",
+                    "DESCRIPCIÓN": "ESPARRAGO TENSOR CON TUERCA L=140",
+                    "PART NAME": "SCREW",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "7",
+                    "Nº PIEZA / PART NUMBER": "0504CA00P0020",
+                    "DESCRIPCIÓN": "PLACA SOPORTE MOTOR COMPLETA",
+                    "PART NAME": "PLATE",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "8",
+                    "Nº PIEZA / PART NUMBER": "0629CA0000110",
+                    "DESCRIPCIÓN": "SOPORTE EJE CONDUCIDO D=100 L=80",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "9",
+                    "Nº PIEZA / PART NUMBER": "0629CA00N0080",
+                    "DESCRIPCIÓN": "RUEDA DETECTOR CARRO D=60 L=20",
+                    "PART NAME": "WHEEL",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "10",
+                    "Nº PIEZA / PART NUMBER": "0652CA0000110",
+                    "DESCRIPCIÓN": "SOPORTE DETECTOR CARRO 110X40X2",
+                    "PART NAME": "SUPPORT",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "11",
+                    "Nº PIEZA / PART NUMBER": "961023000551",
+                    "DESCRIPCIÓN": "INDUCTIVO \"OMRON\" E2B-M12KS04-M1-B1",
+                    "PART NAME": "PROXIMITY SWITCH",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "12",
+                    "Nº PIEZA / PART NUMBER": "C00-9567",
+                    "DESCRIPCIÓN": "CORREA DENT. CONTIN. HTD CXA \n624-8M-30",
+                    "PART NAME": "TIMING BELT CONTINEN. HTD CXA \n624-8M-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "13",
+                    "Nº PIEZA / PART NUMBER": "S00260",
+                    "DESCRIPCIÓN": "POLEA POGGI PL 44 8M 30-4F",
+                    "PART NAME": "PULLEY \"POGGI\" PL 44 8M 30-4F",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "14",
+                    "Nº PIEZA / PART NUMBER": "S00262",
+                    "DESCRIPCIÓN": "POLEA POGGI PL 36 8M 30-3F",
+                    "PART NAME": "PULLEY \"POGGI\" PL 36 8M 30-3F",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "15",
+                    "Nº PIEZA / PART NUMBER": "S00263",
+                    "DESCRIPCIÓN": "TAPER-LOCK POGGI 1615-30 con chavetero",
+                    "PART NAME": "Tapper-lock \"POGGI\" 1615-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "16",
+                    "Nº PIEZA / PART NUMBER": "S00261",
+                    "DESCRIPCIÓN": "TAPER-LOCK POGGI 2012-30 con chavetero",
+                    "PART NAME": "Tapper-lock \"POGGI\" 2012-30",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "17",
+                    "Nº PIEZA / PART NUMBER": "D01861",
+                    "DESCRIPCIÓN": "Esparrago \"ANSI-B18.3\" 3/8\"x5/8\"",
+                    "PART NAME": "SCREW \"ANSI-B18.3\" 3/8\"x5/8\"",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "18",
+                    "Nº PIEZA / PART NUMBER": "D01863",
+                    "DESCRIPCIÓN": "Esparrago \"ANSI-B18.3\" 7/16\"x7/8\"",
+                    "PART NAME": "SCREW \"ANSI-B18.3\" 7/16\"x7/8\"",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "19",
+                    "Nº PIEZA / PART NUMBER": "D00134",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x55 ZINCADO 8.8",
+                    "PART NAME": "SOCKET HEAD CAP SCREW",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "20",
+                    "Nº PIEZA / PART NUMBER": "D00469",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x40 ZINCADO 8.8",
+                    "PART NAME": "SCREW DIN 933 M10 x40 ZINC 8.8",
+                    "CTD. / QTY.": "4"
+                },
+                {
+                    "POS.": "21",
+                    "Nº PIEZA / PART NUMBER": "D00742",
+                    "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 \nZINCADO",
+                    "PART NAME": "EXAGONAL NUT DIN 934 M10",
+                    "CTD. / QTY.": "5"
+                },
+                {
+                    "POS.": "22",
+                    "Nº PIEZA / PART NUMBER": "D00810",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø10 PAVONADO",
+                    "PART NAME": "AET WASHER Ø10",
+                    "CTD. / QTY.": "9"
+                },
+                {
+                    "POS.": "23",
+                    "Nº PIEZA / PART NUMBER": "D00819",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "8"
+                },
+                {
+                    "POS.": "24",
+                    "Nº PIEZA / PART NUMBER": "D00868",
+                    "DESCRIPCIÓN": "ARANDELA DIN 6340 Ø10 ZINCADO ST",
+                    "PART NAME": "WASHER DIN 6340 10X28X4",
+                    "CTD. / QTY.": "5"
+                },
+                {
+                    "POS.": "25",
+                    "Nº PIEZA / PART NUMBER": "D00931",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 471 E-30",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "26",
+                    "Nº PIEZA / PART NUMBER": "D00967",
+                    "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 472 I-55",
+                    "PART NAME": "CIRCLIP",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "27",
+                    "Nº PIEZA / PART NUMBER": "D01069",
+                    "DESCRIPCIÓN": "ESPARRAGO DIN 914 M6 x10  12.9",
+                    "PART NAME": "COILED BAR DIN 914 M6X10",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "28",
+                    "Nº PIEZA / PART NUMBER": "D01229",
+                    "DESCRIPCIÓN": "CHAVETA DIN 6885 A 8 x7 x35",
+                    "PART NAME": "COTTER DIN-6885 8x7x35",
+                    "CTD. / QTY.": "3"
+                },
+                {
+                    "POS.": "29",
+                    "Nº PIEZA / PART NUMBER": "D01247",
+                    "DESCRIPCIÓN": "CHAVETA DIN 6885 A 8 x7 x50",
+                    "PART NAME": "PARALLEL COTTER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "30",
+                    "Nº PIEZA / PART NUMBER": "D01403",
+                    "DESCRIPCIÓN": "RODAMIENTO 6006 2RS",
+                    "PART NAME": "BEARING",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "31",
+                    "Nº PIEZA / PART NUMBER": "E00023",
+                    "DESCRIPCIÓN": "ADAPTADOR ROSCA M25 PG16",
+                    "PART NAME": "PIPE FITTING REDUCER",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "32",
+                    "Nº PIEZA / PART NUMBER": "E00026",
+                    "DESCRIPCIÓN": "PRENSAESTOPA NORMANYL PG-16",
+                    "PART NAME": "CABLE GLAND",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "33",
+                    "Nº PIEZA / PART NUMBER": "E00030",
+                    "DESCRIPCIÓN": "CONEC. C/CABLE Y92E-P1D3V 5mts",
+                    "PART NAME": "CONNECTOR WITH CABLE",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "34",
+                    "Nº PIEZA / PART NUMBER": "0921013000650",
+                    "DESCRIPCIÓN": "MOTOR* 0.75CV.B5 BONFI.  4P.",
+                    "PART NAME": "MOTOR",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "35",
+                    "Nº PIEZA / PART NUMBER": "E00959",
+                    "DESCRIPCIÓN": "REDUCTOR W63FC R.1:15 PAM GR80-B5  \nPOS.BRIDA \"D\"",
+                    "PART NAME": "GEAR W63FC R.1:15 PAM GR80-B5",
+                    "CTD. / QTY.": "1"
+                },
+                {
+                    "POS.": "36",
+                    "Nº PIEZA / PART NUMBER": "D00809",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø8 PAVONADO",
+                    "PART NAME": "AET WASHER FOR Ø8",
+                    "CTD. / QTY.": "3"
+                },
+                {
+                    "POS.": "37",
+                    "Nº PIEZA / PART NUMBER": "D00113",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x25 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "7"
+                },
+                {
+                    "POS.": "38",
+                    "Nº PIEZA / PART NUMBER": "D00086",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "39",
+                    "Nº PIEZA / PART NUMBER": "D00807",
+                    "DESCRIPCIÓN": "ARANDELA AET Ø6 PAVONADO",
+                    "PART NAME": "AET WASHER Ø6",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "40",
+                    "Nº PIEZA / PART NUMBER": "D00829",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø6 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "41",
+                    "Nº PIEZA / PART NUMBER": "D00805",
+                    "DESCRIPCIÓN": "ARANDELA AET M5",
+                    "PART NAME": "WASHER AET M5",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "42",
+                    "Nº PIEZA / PART NUMBER": "D00827",
+                    "DESCRIPCIÓN": "ARANDELA DIN 125 Ø5 ZINCADO",
+                    "PART NAME": "FLAT WASHER",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "43",
+                    "Nº PIEZA / PART NUMBER": "D00245",
+                    "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x16 ZINCADO 8.8",
+                    "PART NAME": "ALLEN HEAD SCREW",
+                    "CTD. / QTY.": "2"
+                },
+                {
+                    "POS.": "44",
+                    "Nº PIEZA / PART NUMBER": "D00475",
+                    "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x60 ZINCADO 8.8",
+                    "PART NAME": "EXAGONAL SCCREW",
+                    "CTD. / QTY.": "1"
+                }
+            ],
             "table_page_num": 15
         },
         {
@@ -2036,217 +2605,217 @@
                     "POS.": "2",
                     "Nº PIEZA / PART NUMBER": "0503CA0000060",
                     "DESCRIPCIÓN": "TUBO CABLES DETECTOR CA9S",
-                    "NAME": "TUBE",
+                    "PART NAME": "TUBE",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "3",
                     "Nº PIEZA / PART NUMBER": "0504CA0000020",
                     "DESCRIPCIÓN": "ESPARRAGO TENSOR CON TUERCA L=140",
-                    "NAME": "STUD",
+                    "PART NAME": "STUD",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "4",
                     "Nº PIEZA / PART NUMBER": "0504CA00P0020",
                     "DESCRIPCIÓN": "PLACA SOPORTE MOTOR COMPLETA",
-                    "NAME": "PLATE",
+                    "PART NAME": "PLATE",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "5",
                     "Nº PIEZA / PART NUMBER": "0629CA00N0080",
                     "DESCRIPCIÓN": "RUEDA DETECTOR CARRO D=60 L=20",
-                    "NAME": "DETECTOR WHEEL",
+                    "PART NAME": "DETECTOR WHEEL",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "6",
                     "Nº PIEZA / PART NUMBER": "335-100014",
                     "DESCRIPCIÓN": "EJE MOTRIZ DE LA CA9 D=30 L=229",
-                    "NAME": "SHAFT",
+                    "PART NAME": "SHAFT",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "7",
                     "Nº PIEZA / PART NUMBER": "0632CA0000040",
                     "DESCRIPCIÓN": "EJE CONDUCIDO DE LA CA9 D=30 L=215",
-                    "NAME": "SHAFT",
+                    "PART NAME": "SHAFT",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "8",
                     "Nº PIEZA / PART NUMBER": "0632PSE0N0040",
                     "DESCRIPCIÓN": "ARAND. FIJACION DE EJES Ý=40x6 Ý=11",
-                    "NAME": "TOOTHED WASHER",
+                    "PART NAME": "TOOTHED WASHER",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "9",
                     "Nº PIEZA / PART NUMBER": "0652CA0000110",
                     "DESCRIPCIÓN": "SOPORTE DETECTOR CARRO 110X40X2",
-                    "NAME": "HOLDER",
+                    "PART NAME": "HOLDER",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "10",
                     "Nº PIEZA / PART NUMBER": "0910012000300",
                     "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø5 ZINCADO",
-                    "NAME": "PLAIN WASHER",
+                    "PART NAME": "PLAIN WASHER",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "11",
                     "Nº PIEZA / PART NUMBER": "0910012000400",
                     "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø6 ZINCADO",
-                    "NAME": "PLAIN WASHER",
+                    "PART NAME": "PLAIN WASHER",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "12",
                     "Nº PIEZA / PART NUMBER": "0910012000700",
                     "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø10 ZINCADO",
-                    "NAME": "PLAIN WASHER",
+                    "PART NAME": "PLAIN WASHER",
                     "CTD. / QTY.": "6"
                 },
                 {
                     "POS.": "13",
                     "Nº PIEZA / PART NUMBER": "0910022000400",
                     "DESCRIPCIÓN": "ARANDELA DIN 127 Ø8 ZINCADO",
-                    "NAME": "TOOTHED WASHER",
+                    "PART NAME": "TOOTHED WASHER",
                     "CTD. / QTY.": "4"
                 },
                 {
                     "POS.": "14",
                     "Nº PIEZA / PART NUMBER": "0911052004500",
                     "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
-                    "NAME": "SCREW",
+                    "PART NAME": "SCREW",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "15",
                     "Nº PIEZA / PART NUMBER": "0911052005900",
                     "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x12 ZINCADO 8.8",
-                    "NAME": "SCREW",
+                    "PART NAME": "SCREW",
                     "CTD. / QTY.": "4"
                 },
                 {
                     "POS.": "16",
                     "Nº PIEZA / PART NUMBER": "0911053003000",
                     "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x16 INOX. 8.8",
-                    "NAME": "SCREW DIN 912 M5 x16 STAINLESS 8.8",
+                    "PART NAME": "SCREW DIN 912 M5 x16 STAINLESS 8.8",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "17",
                     "Nº PIEZA / PART NUMBER": "0911090001100",
                     "DESCRIPCIÓN": "GRANI M6 x 10 DIN 914",
-                    "NAME": "CONE POINT SET SCREW",
+                    "PART NAME": "CONE POINT SET SCREW",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "18",
                     "Nº PIEZA / PART NUMBER": "0913012000600",
                     "DESCRIPCIÓN": "TUERCA M-10 ZINC",
-                    "NAME": "HEXAGONAL NUT",
+                    "PART NAME": "HEXAGONAL NUT",
                     "CTD. / QTY.": "9"
                 },
                 {
                     "POS.": "20",
                     "Nº PIEZA / PART NUMBER": "0916012001800",
                     "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 471 E-30",
-                    "NAME": "CIRCLIP",
+                    "PART NAME": "CIRCLIP",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "21",
                     "Nº PIEZA / PART NUMBER": "0916022001300",
                     "DESCRIPCIÓN": "ANILLO SEGURIDAD DIN 472 I-55",
-                    "NAME": "CIRCLIP",
+                    "PART NAME": "CIRCLIP",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "22",
                     "Nº PIEZA / PART NUMBER": "0920014002500",
                     "DESCRIPCIÓN": "RODAMIENTO 6006 2RS",
-                    "NAME": "BEARING",
+                    "PART NAME": "BEARING",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "23",
                     "Nº PIEZA / PART NUMBER": "0921013000650",
                     "DESCRIPCIÓN": "MOTOR* 0.75CV.B5 BONFI.  4P.",
-                    "NAME": "MOTOR",
+                    "PART NAME": "MOTOR",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "25",
                     "Nº PIEZA / PART NUMBER": "0953054000500",
                     "DESCRIPCIÓN": "PRENSAESTOPA NORMANYL PG-16",
-                    "NAME": "CABLE GLAND",
+                    "PART NAME": "CABLE GLAND",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "26",
                     "Nº PIEZA / PART NUMBER": "0953063001040",
                     "DESCRIPCIÓN": "ADAPTADOR ROSCA M25 PG16",
-                    "NAME": "PIPE FITTING REDUCER",
+                    "PART NAME": "PIPE FITTING REDUCER",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "27",
                     "Nº PIEZA / PART NUMBER": "0955064001700",
                     "DESCRIPCIÓN": "CONEC. C/CABLE Y92E-P1D3V 5mts",
-                    "NAME": "CONNECTOR WITH CABLE",
+                    "PART NAME": "CONNECTOR WITH CABLE",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "28",
                     "Nº PIEZA / PART NUMBER": "0961023000551",
                     "DESCRIPCIÓN": "INDUCTIVO \"OMRON\" E2B-M12KS04-M1-B1",
-                    "NAME": "PROXIMITY SWITCH",
+                    "PART NAME": "PROXIMITY SWITCH",
                     "CTD. / QTY.": "2"
                 },
                 {
                     "POS.": "53",
                     "Nº PIEZA / PART NUMBER": "0921034500300",
                     "DESCRIPCIÓN": "REDUCTOR W63FC R.1:30 PAM GR80-B5  \nPOS.BRIDA \"D\"",
-                    "NAME": "",
+                    "PART NAME": "",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "60",
                     "Nº PIEZA / PART NUMBER": "CD0-0031",
                     "DESCRIPCIÓN": "TUERCA AUTOBLOC. DIN 985 M10 \nZINCADO",
-                    "NAME": "SECURITY EXAGONAL NUT",
+                    "PART NAME": "SECURITY EXAGONAL NUT",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "61",
                     "Nº PIEZA / PART NUMBER": "0911089002600",
                     "DESCRIPCIÓN": "ESPARRAGO DIN 913 M10 x60",
-                    "NAME": "CONI POINT SET SCREW",
+                    "PART NAME": "CONI POINT SET SCREW",
                     "CTD. / QTY.": "1"
                 },
                 {
                     "POS.": "62",
                     "Nº PIEZA / PART NUMBER": "00C-1407",
                     "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 ZINCADO",
-                    "NAME": "FLAT WASHER",
+                    "PART NAME": "FLAT WASHER",
                     "CTD. / QTY.": "4"
                 },
                 {
                     "POS.": "63",
                     "Nº PIEZA / PART NUMBER": "CD0-0200",
                     "DESCRIPCIÓN": "ARANDELA AET Ø10 PAVONADO",
-                    "NAME": "AET WASHER Ø10",
+                    "PART NAME": "AET WASHER Ø10",
                     "CTD. / QTY.": "4"
                 },
                 {
                     "POS.": "65",
                     "Nº PIEZA / PART NUMBER": "00C-4434",
                     "DESCRIPCIÓN": "TORNILLO DIN 933 M10 x30 ZINCADO 8.8",
-                    "NAME": "BOLT DIN 933 M10X30",
+                    "PART NAME": "BOLT DIN 933 M10X30",
                     "CTD. / QTY.": "4"
                 }
             ],
