@@ -1,28 +1,37 @@
 # Catálogo Interactivo
 
-Extrae dibujos y tablas de un PDF técnico y los publica como catálogo web interactivo con navegación por secciones, zonas cliqueables y carrito de compra.
+Extrae dibujos y tablas de PDFs técnicos y los publica como catálogo web interactivo con navegación por secciones, zonas cliqueables, carrito de compra y soporte para múltiples catálogos.
 
 ---
 
 ## ¿Cómo funciona?
 
-**1. Extraer datos del PDF**
+**1. Colocar PDFs en `documentos/`**
 
-El script `main.py` abre un PDF, localiza las páginas que indicas (dibujo + tabla) y extrae:
+Cada PDF debe estar en la carpeta `documentos/` (ignorada por git — no se sube a GitHub).
 
-- **Imagen del dibujo** → se guarda en `imagenes/`
-- **Números POS** → coordenadas de cada pieza sobre el dibujo
-- **Tabla de piezas** → número de pieza, descripción, cantidad, etc.
+**2. Ejecutar `main.py` para extraer los datos**
+
+El script escanea `documentos/` y te deja elegir qué PDF procesar y qué pares de páginas (dibujo + tabla) extraer:
 
 ```bash
-python main.py --pairs 8,9 10,11
+python main.py                          →  Modo interactivo (elige PDF, pares)
+python main.py --pdf archivo.pdf        →  Usar un PDF concreto de documentos/
+python main.py --pairs 8,9 10,11        →  Directo (varios pares)
+python main.py --dry-run                →  Ensayo (muestra qué haría)
+python main.py --list                   →  Lista páginas del PDF
 ```
 
-Esto procesa: Pág.8 (dibujo) + Pág.9 (tabla) como sección 1, y Pág.10 + Pág.11 como sección 2.
+Por cada sección extrae:
+- **Imagen del dibujo** → `imagenes/<catalog_name>/extracted_drawing_pN.png`
+- **Números POS** → coordenadas de cada pieza sobre el dibujo
+- **Tabla de piezas** → número de pieza, descripción, cantidad
 
-**2. Publicar en web**
+El script genera automáticamente `imagenes/catalogs.json` con la lista de catálogos disponibles.
 
-Los datos extraídos se suben a GitHub Pages y se ven automáticamente en:
+**3. Publicar en web**
+
+Los datos extraídos se suben a GitHub Pages (seguimiento de `imagenes/`) y se ven en:
 
 ```
 https://alexrequeni81.github.io/interactive_web/
@@ -30,17 +39,27 @@ https://alexrequeni81.github.io/interactive_web/
 
 ---
 
-## Formas de usar el script
+## Estructura del proyecto
 
 ```
-python main.py                          →  Modo interactivo (pide PDF y pares)
-python main.py --pairs 8,9 10,11 12,13 →  Directo (varios pares)
-python main.py --dry-run                →  Ensayo (muestra qué haría sin ejecutar)
-python main.py --list                   →  Lista todas las páginas del PDF
-python main.py --pdf otro.pdf           →  Usar otro archivo PDF
+pdf_interactivo/
+├── main.py                    → Script de extracción
+├── index.html                 → Web del catálogo
+├── requirements.txt           → Dependencias Python
+├── documentos/                → PDFs fuente (ignorados por git)
+│   ├── catalogo1.pdf
+│   └── catalogo2.pdf
+└── imagenes/                  → Datos extraídos (trackeados por git)
+    ├── catalogs.json           → Índice de catálogos (generado automáticamente)
+    ├── catalogo1/
+    │   ├── extracted_drawing_data.json
+    │   ├── extracted_drawing_p1.png
+    │   └── extracted_drawing_p2.png
+    └── catalogo2/
+        ├── extracted_drawing_data.json
+        ├── extracted_drawing_p1.png
+        └── extracted_drawing_p2.png
 ```
-
-El script muestra un resumen y pide confirmación antes de empezar.
 
 ---
 
@@ -64,12 +83,13 @@ Si una tabla no tiene ninguna de estas columnas, se salta y sigue con la siguien
 
 Una vez publicado:
 
-- **Secciones**: botones `<<` y `>>` para cambiar entre dibujos
+- **Catálogos**: desplegable en la parte superior para cambiar entre catálogos
+- **Secciones**: botones `<<` y `>>` para cambiar entre dibujos de un catálogo
 - **POS**: al pasar el ratón sobre un número en el dibujo, se resalta su fila en la tabla
 - **Tabla**: al pasar sobre una fila, se marca su posición en el dibujo
 - **Zoom**: rueda del ratón para acercar/alejar
 - **Arrastre**: clic y arrastrar para mover el dibujo ampliado
-- **Carrito**: añade piezas con cantidad, modifica o elimina
+- **Carrito**: añade piezas con cantidad, modifica o elimina; se mantiene al cambiar de catálogo
 
 ---
 
