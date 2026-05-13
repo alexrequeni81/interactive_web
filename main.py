@@ -122,40 +122,51 @@ def extract_drawing(page, page_num, output_dir, base_name, dpi):
     return section
 
 
-def extract_table(pdf_path, page_num):
+def _parse_camelot_tables(tables, label=""):
+    """Intenta extraer filas con POS de tablas Camelot. Retorna (rows, ok)."""
     rows = []
-    try:
-        tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor="lattice")
-        print(f"    Tablas encontradas: {tables.n}")
-    except Exception as e:
-        print(f"    ERROR Camelot: {e}")
-        return rows
-
     for t in tables:
         df = t.df
         if len(df) < 2:
-            print(f"    WARN: Tabla demasiado corta, saltando.")
             continue
-
         headers = df.iloc[1].tolist()
         if "POS." not in headers and "POS" not in headers:
-            print(f"    WARN: Sin columna POS, saltando.")
             continue
-
         df.columns = df.iloc[1]
         df = df[2:].reset_index(drop=True)
         df.columns = [
             str(c).replace("\n", " ").strip() if c else f"col_{j}"
             for j, c in enumerate(df.columns)
         ]
-
         pos_col = "POS." if "POS." in df.columns else "POS"
         df[pos_col] = df[pos_col].apply(normalize_pos)
         records = df.to_dict(orient="records")
         rows.extend(records)
-    print(f"  Filas extraidas: {len(records)}")
-
+        print(f"    {label}Filas extraidas: {len(records)}")
     return rows
+
+
+def extract_table(pdf_path, page_num):
+    flavors = ["lattice", "stream"]
+
+    for i, flavor in enumerate(flavors):
+        try:
+            tables = camelot.read_pdf(pdf_path, pages=str(page_num), flavor=flavor)
+            label = f"[{flavor}] " if len(flavors) > 1 else ""
+            print(f"    {label}Tablas encontradas: {tables.n}")
+        except Exception as e:
+            print(f"    {label}ERROR Camelot: {e}")
+            continue
+
+        rows = _parse_camelot_tables(tables, label=label)
+        if rows:
+            if i > 0:
+                print(f"    -> stream recupero {len(rows)} filas con POS")
+            return rows
+        if i == 0 and len(flavors) > 1:
+            print(f"    Sin POS con lattice, probando stream...")
+
+    return []
 
 
 def process(pdf_path, pairs, output_dir, base_name, dpi, dry_run=False):
