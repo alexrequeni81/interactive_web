@@ -1,0 +1,544 @@
+{
+    "pos_locations": {
+        "24": [
+            [
+                90.96,
+                183.44,
+                99.65,
+                192.22
+            ]
+        ],
+        "23": [
+            [
+                159.36,
+                248.48,
+                168.05,
+                257.26
+            ]
+        ],
+        "22": [
+            [
+                354.96,
+                128.0,
+                363.89,
+                136.78
+            ]
+        ],
+        "21": [
+            [
+                372.24,
+                112.64,
+                381.17,
+                121.42
+            ]
+        ],
+        "13": [
+            [
+                434.4,
+                132.32,
+                443.33,
+                141.1
+            ]
+        ],
+        "6": [
+            [
+                419.52,
+                132.32,
+                423.89,
+                141.1
+            ]
+        ],
+        "20": [
+            [
+                374.4,
+                536.0,
+                383.33,
+                544.78
+            ],
+            [
+                126.48,
+                426.8,
+                135.17,
+                435.58
+            ],
+            [
+                522.0,
+                450.08,
+                530.69,
+                458.86
+            ]
+        ],
+        "17": [
+            [
+                374.4,
+                508.88,
+                383.33,
+                517.66
+            ],
+            [
+                126.48,
+                412.88,
+                135.17,
+                421.66
+            ],
+            [
+                540.96,
+                437.12,
+                549.89,
+                445.9
+            ]
+        ],
+        "12": [
+            [
+                275.28,
+                496.64,
+                283.97,
+                505.42
+            ],
+            [
+                126.48,
+                373.76,
+                135.17,
+                382.54
+            ],
+            [
+                545.76,
+                308.24,
+                554.45,
+                317.02
+            ]
+        ],
+        "1": [
+            [
+                376.56,
+                487.76,
+                380.93,
+                496.54
+            ],
+            [
+                203.76,
+                429.44,
+                208.13,
+                438.22
+            ],
+            [
+                543.12,
+                415.76,
+                547.49,
+                424.54
+            ]
+        ],
+        "11": [
+            [
+                130.32,
+                257.6,
+                139.01,
+                266.38
+            ],
+            [
+                70.32,
+                326.72,
+                79.01,
+                335.5
+            ],
+            [
+                200.88,
+                382.4,
+                209.57,
+                391.18
+            ]
+        ],
+        "5": [
+            [
+                132.48,
+                240.56,
+                136.85,
+                249.34
+            ],
+            [
+                55.44,
+                326.72,
+                59.81,
+                335.5
+            ]
+        ],
+        "15": [
+            [
+                272.16,
+                399.68,
+                280.85,
+                408.46
+            ]
+        ],
+        "10": [
+            [
+                272.16,
+                416.48,
+                280.85,
+                425.26
+            ]
+        ],
+        "16": [
+            [
+                239.76,
+                405.68,
+                248.69,
+                414.46
+            ]
+        ],
+        "8": [
+            [
+                242.16,
+                422.72,
+                246.53,
+                431.5
+            ],
+            [
+                294.55,
+                822.84,
+                300.66,
+                837.57
+            ]
+        ],
+        "7": [
+            [
+                203.04,
+                399.44,
+                207.41,
+                408.22
+            ]
+        ],
+        "2": [
+            [
+                224.88,
+                387.44,
+                229.25,
+                396.22
+            ]
+        ],
+        "19": [
+            [
+                458.4,
+                425.36,
+                467.09,
+                434.14
+            ]
+        ],
+        "9": [
+            [
+                460.56,
+                442.4,
+                464.93,
+                451.18
+            ]
+        ],
+        "3": [
+            [
+                437.04,
+                428.48,
+                441.41,
+                437.26
+            ]
+        ],
+        "14": [
+            [
+                528.0,
+                260.96,
+                536.69,
+                269.74
+            ]
+        ],
+        "4": [
+            [
+                530.16,
+                243.92,
+                534.53,
+                252.7
+            ]
+        ],
+        "24.5": [
+            [
+                142.32,
+                711.68,
+                157.74,
+                720.46
+            ]
+        ],
+        "24.4": [
+            [
+                162.0,
+                760.88,
+                177.41,
+                769.66
+            ]
+        ],
+        "24.3": [
+            [
+                132.96,
+                674.72,
+                148.37,
+                683.5
+            ]
+        ],
+        "24.2": [
+            [
+                231.84,
+                697.28,
+                247.25,
+                706.06
+            ]
+        ],
+        "24.1": [
+            [
+                251.76,
+                697.28,
+                267.16,
+                706.06
+            ]
+        ],
+        "24.6": [
+            [
+                271.44,
+                697.28,
+                286.85,
+                706.06
+            ]
+        ],
+        "25": [
+            [
+                414.48,
+                438.08,
+                423.41,
+                446.86
+            ]
+        ]
+    },
+    "table_data": [
+        {
+            "POS.": "1",
+            "Nº PIEZA / PART NUMBER": "0503CA0000450",
+            "DESCRIPCIÓN": "SOPORTE PATAS PERFIL UPN CA9-S",
+            "PART NAME": "HOLDER",
+            "CTD. / QTY.": "4"
+        },
+        {
+            "POS.": "2",
+            "Nº PIEZA / PART NUMBER": "0643CA0000200",
+            "DESCRIPCIÓN": "FIJACION CONECTORES TSL+MR",
+            "PART NAME": "CONECTORS FIXATION",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "3",
+            "Nº PIEZA / PART NUMBER": "0652CA00P0350",
+            "DESCRIPCIÓN": "SOPORTE CONECTORES TRASERO",
+            "PART NAME": "HOLDER",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "4",
+            "Nº PIEZA / PART NUMBER": "0910012000300",
+            "DESCRIPCIÓN": "Arandela Ý 5 Zinc. DIN 125-B",
+            "PART NAME": "PLAIN WASHER",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "5",
+            "Nº PIEZA / PART NUMBER": "0910012000400",
+            "DESCRIPCIÓN": "Arandela Ý 6 Zinc. DIN 125-B",
+            "PART NAME": "PLAIN WASHER",
+            "CTD. / QTY.": "4"
+        },
+        {
+            "POS.": "6",
+            "Nº PIEZA / PART NUMBER": "0910012000700",
+            "DESCRIPCIÓN": "ARANDELA DIN 125-B Ø10 ZINCADO",
+            "PART NAME": "PLAIN WASHER",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "7",
+            "Nº PIEZA / PART NUMBER": "0910013000400",
+            "DESCRIPCIÓN": "ARANDELA DIN 125 Ø6 INOX.",
+            "PART NAME": "WASHER DIN 125 Ø6 STAINLESS",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "8",
+            "Nº PIEZA / PART NUMBER": "0910013000700",
+            "DESCRIPCIÓN": "ARANDELA DIN 125 Ø10 INOX.",
+            "PART NAME": "WASHER DIN 125 Ø10 STAINLESS",
+            "CTD. / QTY.": "16"
+        },
+        {
+            "POS.": "9",
+            "Nº PIEZA / PART NUMBER": "0910022000200",
+            "DESCRIPCIÓN": "ARANDELA DIN 127 Ø5 ZINCADO",
+            "PART NAME": "TOOTHED WASHER",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "10",
+            "Nº PIEZA / PART NUMBER": "0910022000500",
+            "DESCRIPCIÓN": "ARANDELA DIN 127 Ø10 ZINCADO",
+            "PART NAME": "WASHER DIN 127 Ø10 ZINC",
+            "CTD. / QTY.": "12"
+        },
+        {
+            "POS.": "11",
+            "Nº PIEZA / PART NUMBER": "0911052004500",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M6 x12 ZINCADO 8.8",
+            "PART NAME": "SCREW",
+            "CTD. / QTY.": "6"
+        },
+        {
+            "POS.": "12",
+            "Nº PIEZA / PART NUMBER": "0911052006000",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M8 x16 ZINCADO 8.8",
+            "PART NAME": "SCREW DIN 912 M8 x16 ZINC 8.8",
+            "CTD. / QTY.": "24"
+        },
+        {
+            "POS.": "13",
+            "Nº PIEZA / PART NUMBER": "0911052007600",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x25 ZINCADO 8.8",
+            "PART NAME": "SCREW",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "14",
+            "Nº PIEZA / PART NUMBER": "0911053003100",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M5 x20 INOX. 8.8",
+            "PART NAME": "SCREW DIN 912 M5 x20 STAINLESS 8.8",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "15",
+            "Nº PIEZA / PART NUMBER": "0911053007700",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x30 INOX. 8.8",
+            "PART NAME": "SCREW DIN 912 M10 x30 STAINLESS 8.8",
+            "CTD. / QTY.": "4"
+        },
+        {
+            "POS.": "16",
+            "Nº PIEZA / PART NUMBER": "0911053007800",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x35 INOX. 8.8",
+            "PART NAME": "SCREW DIN 912 M10 x35 STAINLESS 8.8",
+            "CTD. / QTY.": "8"
+        },
+        {
+            "POS.": "17",
+            "Nº PIEZA / PART NUMBER": "0913012001400",
+            "DESCRIPCIÓN": "TUERCA M-24 ZINC.DIN 934",
+            "PART NAME": "HEXAGONAL NUT",
+            "CTD. / QTY.": "4"
+        },
+        {
+            "POS.": "18",
+            "Nº PIEZA / PART NUMBER": "0913013000600",
+            "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 934 M10 INOX.",
+            "PART NAME": "NUT DIN 934 M10 STAINLESS",
+            "CTD. / QTY.": "8"
+        },
+        {
+            "POS.": "19",
+            "Nº PIEZA / PART NUMBER": "0913030000200",
+            "DESCRIPCIÓN": "TUERCA HEXAGONAL DIN 985 M5 INOX.",
+            "PART NAME": "NUT DIN 985 M5 STAINLESS",
+            "CTD. / QTY.": "2"
+        },
+        {
+            "POS.": "20",
+            "Nº PIEZA / PART NUMBER": "0917029000200",
+            "DESCRIPCIÓN": "PIE ART.ZINC M.24 D-110 L-163 C/TUERCA",
+            "PART NAME": "FOOT",
+            "CTD. / QTY.": "4"
+        },
+        {
+            "POS.": "21",
+            "Nº PIEZA / PART NUMBER": "234-000002",
+            "DESCRIPCIÓN": "CORAZA INFERIOR DERECHA CA9-S (CAJON)",
+            "PART NAME": "LATERAL GUARD",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "22",
+            "Nº PIEZA / PART NUMBER": "234-000003",
+            "DESCRIPCIÓN": "SUPLEMENTO LATERAL",
+            "PART NAME": "SUPPLEMENT",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "23",
+            "Nº PIEZA / PART NUMBER": "234-000004",
+            "DESCRIPCIÓN": "CORAZA INFERIOR DERECHA CA9-S",
+            "PART NAME": "LATERAL GUARD",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "24",
+            "Nº PIEZA / PART NUMBER": "335-010008",
+            "DESCRIPCIÓN": "BRAZO SOPORTE PANEL SOLDADO",
+            "PART NAME": "PANNEL SUPPORT",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "25",
+            "Nº PIEZA / PART NUMBER": "335-010009",
+            "DESCRIPCIÓN": "Viga transversal posterior",
+            "PART NAME": "",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "26",
+            "Nº PIEZA / PART NUMBER": "00C-3753",
+            "DESCRIPCIÓN": "TORNILLO DIN 912 M10 x25 ZINCADO 8.8",
+            "PART NAME": "BOLT DIN 912 M10X25",
+            "CTD. / QTY.": "8"
+        },
+        {
+            "POS.": "24.1",
+            "Nº PIEZA / PART NUMBER": "00C-1401",
+            "DESCRIPCIÓN": "ARANDELA DIN 125 Ø4 ZINCADO",
+            "PART NAME": "FLAT WASHER",
+            "CTD. / QTY.": "8"
+        },
+        {
+            "POS.": "24.2",
+            "Nº PIEZA / PART NUMBER": "00C-8800",
+            "DESCRIPCIÓN": "TORNILLO ULS (ISO7380) M4 x6 ZINCADO 8.8",
+            "PART NAME": "SCREW ULS M4X6",
+            "CTD. / QTY.": "8"
+        },
+        {
+            "POS.": "24.3",
+            "Nº PIEZA / PART NUMBER": "335-010002",
+            "DESCRIPCIÓN": "SOPORTE PC PANEL Y G+ PARA CA9",
+            "PART NAME": "PANEL SUPPORT FOR PC PANEL WITH G+",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "24.4",
+            "Nº PIEZA / PART NUMBER": "335-010005",
+            "DESCRIPCIÓN": "TAPA INFERIOR BRAZO SOPORTE PANEL",
+            "PART NAME": "LOWER COVER",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "24.5",
+            "Nº PIEZA / PART NUMBER": "335-010006",
+            "DESCRIPCIÓN": "TAPETA INTERMEDIA BRAZO SOPORTE PANEL",
+            "PART NAME": "INTERMEDIATE COVER",
+            "CTD. / QTY.": "1"
+        },
+        {
+            "POS.": "24.6",
+            "Nº PIEZA / PART NUMBER": "CD0-0327",
+            "DESCRIPCIÓN": "ARANDELA AET Ø4 PAVONADO",
+            "PART NAME": "AET WASHER Ø4",
+            "CTD. / QTY.": "8"
+        }
+    ],
+    "pdf_page_width": 595.2,
+    "pdf_page_height": 841.92
+}
